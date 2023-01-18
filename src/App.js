@@ -9,7 +9,7 @@ function App() {
   return (
       <div>
           <div><Header /></div>
-          <div className="container" style={{height:"100%"}}>
+          <div style={{height:"100px"}}>
               <Router>
                   <Switch>
                       <Route path="/" exact component={HomePage} />
