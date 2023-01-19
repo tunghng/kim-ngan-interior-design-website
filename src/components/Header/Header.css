@@ -1,0 +1,49 @@
+.header-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 4rem;
+    width: 100%;
+    gap: 11rem;
+
+    border-bottom: 2px solid white;
+
+    /* background: #d2b298; */
+
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+}
+
+.blank {
+    opacity: 0;
+    width: 5rem;
+}
+
+.wrapper {
+    display: flex;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.header-pages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 3.5rem;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+li {
+    cursor: pointer;
+}
