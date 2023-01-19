@@ -1,3 +1,75 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsRegular"),
+  url("./font/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsMedium"),
+  url("./font/PlayfairDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsMediumItalic"),
+  url("./font/PlayfairDisplay-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsSemiBold"),
+  url("./font/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsSemiBoldItalic"),
+  url("./font/PlayfairDisplay-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsBold"),
+  url("./font/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsBold"),
+  url("./font/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsExtraBold"),
+  url("./font/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsExtraBold"),
+  url("./font/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsBlack"),
+  url("./font/PlayfairDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("PoppinsBlack"),
+  url("./font/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
