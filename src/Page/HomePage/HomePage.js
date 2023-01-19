@@ -15,7 +15,14 @@ import section2Img from "../../image/section2_img.png"
 // import required modules
 import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
 
+import sample_banner from "../../assets/navbar/background.jpg"
+
+import AboutUs from "../../components/AboutUs/AboutUs";
+
+import "./HomePage.css";
+
 export default function HomePage() {
+
     SwiperCore.use([Autoplay])
     const data = [
         {

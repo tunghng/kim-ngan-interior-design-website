@@ -8,8 +8,8 @@ import HomePage from "./Page/HomePage/HomePage";
 function App() {
   return (
       <div>
-          <div><Header /></div>
-          <div style={{height:"100px"}}>
+          <div><Header/></div>
+          <div className="container" style={{height:"100%"}}>
               <Router>
                   <Switch>
                       <Route path="/" exact component={HomePage} />
