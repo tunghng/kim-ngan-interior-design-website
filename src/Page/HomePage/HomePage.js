@@ -67,7 +67,7 @@ export default function HomePage() {
                         alignItems: "center",
                     }}
                 >
-                    <div className="homepage-header-container">
+                    <div className="homepage-header-container" style={{marginBottom:"-5px"}}>
                         <div className="header-text-container products-header">
                             <img src={vector} alt="" className="vector" />
                             <div className="header-text">Gallery</div>
