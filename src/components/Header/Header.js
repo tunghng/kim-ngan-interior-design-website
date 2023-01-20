@@ -27,7 +27,7 @@ const Header = (props) => {
                 <div className="left" onClick={() => moveTo("/")}>
                     <div className="wrapper">
                         <img src="#"></img>
-                        <div>My Website</div>
+                        <div style={{fontFamily:"SFUFutura"}}>My Website</div>
                     </div>
                 </div>
             </div>

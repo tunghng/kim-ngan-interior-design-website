@@ -10,8 +10,8 @@ const Button = (props) => {
     }
 
     styles.display = "flex";
-    styles.alignItems = "center";
     styles.justifyContent = "center";
+    styles.alignItems = "center";
     styles.background = "linear-gradient(90deg, #D59E19 0%, #BB7E2F 100%)";
     styles.cursor = "pointer";
 

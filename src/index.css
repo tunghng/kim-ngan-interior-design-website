@@ -1,72 +1,153 @@
+/*PlayFairDisplay font*/
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsRegular"),
-  url("./font/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayRegular"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsMedium"),
-  url("./font/PlayfairDisplay-Medium.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayMedium"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsMediumItalic"),
-  url("./font/PlayfairDisplay-MediumItalic.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayMediumItalic"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsSemiBold"),
-  url("./font/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplaySemiBold"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf") format("truetype");
   font-weight: 600;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsSemiBoldItalic"),
-  url("./font/PlayfairDisplay-SemiBoldItalic.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplaySemiBoldItalic"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsBold"),
-  url("./font/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayBold"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsBold"),
-  url("./font/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayBoldItalic"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsExtraBold"),
-  url("./font/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayExtraBold"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf") format("truetype");
   font-weight: 800;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsExtraBold"),
-  url("./font/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayExtraBoldItalic"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsBlack"),
-  url("./font/PlayfairDisplay-Black.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayBlack"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-Black.ttf") format("truetype");
   font-weight: 900;
 }
 @font-face {
-  font-family: "Poppins";
-  src: local("PoppinsBlack"),
-  url("./font/PlayfairDisplay-BlackItalic.ttf") format("truetype");
+  font-family: "PlayFairDisplay";
+  src: local("PlayFairDisplayBlackItalic"),
+  url("./font/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf") format("truetype");
   font-weight: 900;
+  font-style: italic;
+}
+
+/*SFU Futura font*/
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaLight"),
+  url("./font/SFUFutura/SFUFuturaLight.TTF") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaLightItalic"),
+  url("./font/SFUFutura/SFUFuturaLightItalic.TTF") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaBook"),
+  url("./font/SFUFutura/SFUFuturaBook.TTF") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaBookItalic"),
+  url("./font/SFUFutura/SFUFuturaBookItalic.TTF") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaRegular"),
+  url("./font/SFUFutura/SFUFuturaRegular.TTF") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaRegular"),
+  url("./font/SFUFutura/SFUFuturaRegularItalic.TTF") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaMedium"),
+  url("./font/SFUFutura/SFUFuturaMedium.TTF") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaMediumItalic"),
+  url("./font/SFUFutura/SFUFuturaMediumItalic.TTF") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaBold"),
+  url("./font/SFUFutura/SFUFuturaBold.TTF") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaBoldItalic"),
+  url("./font/SFUFutura/SFUFuturaBoldItalic.TTF") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaExtraBold"),
+  url("./font/SFUFutura/SFUFuturaExtraBold.TTF") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "SfuFutura";
+  src: local("SfuFuturaExtraBoldItalic"),
+  url("./font/SFUFutura/SFUFuturaExtraBoldItalic.TTF") format("truetype");
+  font-weight: 800;
   font-style: italic;
 }
 

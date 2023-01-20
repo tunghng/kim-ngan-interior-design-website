@@ -72,7 +72,7 @@ export default function HomePage() {
                             <img src={vector} alt="" className="vector" />
                             <div className="header-text">Gallery</div>
                         </div>
-                        <div
+                        <div className="subHeader-text"
                             style={{
                                 textAlign: "center",
                                 marginTop: "20px",
@@ -145,7 +145,7 @@ export default function HomePage() {
                             <img src={vector} alt="" className="vector" />
                             <div className="header-text">Dự án nổi bật</div>
                         </div>
-                        <div
+                        <div className="subHeader-text"
                             style={{
                                 textAlign: "center",
                                 marginTop: "20px",
@@ -405,7 +405,7 @@ export default function HomePage() {
                             <img src={vector} alt="" className="vector" />
                             <div className="header-text">Dịch vụ</div>
                         </div>
-                        <div
+                        <div className="subHeader-text"
                             style={{
                                 textAlign: "center",
                                 marginTop: "20px",

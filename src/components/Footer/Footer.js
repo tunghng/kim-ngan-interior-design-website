@@ -47,10 +47,10 @@ const Footer = (props) => {
                             styles={{
                                 height: "3rem",
                                 width: "22rem",
-                                "margin-right": "0",
-                                "margin-bottom": "0",
                                 padding: "0.05rem 1.5rem",
                                 color: "#ffffff",
+                                fontFamily:"SFUFutura",
+                                justifyContent:"flex-start"
                             }}
                             content="Enter your email"
                             handleClick={() => moveTo("/")}
@@ -62,7 +62,7 @@ const Footer = (props) => {
                             type="checkbox"
                             onChange={() => setChecked(!isBoxChecked)}
                         ></input>
-                        <span class="agreetext">
+                        <span class="agreetext" style={{fontSize:"14px", width:"25rem"}}>
                             I've read the Privacy Policy and I consent to Halal
                             Interior sending me marketing communications
                         </span>
@@ -79,13 +79,14 @@ const Footer = (props) => {
                             <li>Contact</li>
                         </ul>
                     </div>
-                    
-                    <ul className="right-medias">
-                        <li><div className="medias">INSTAGRAM</div></li>
-                        <li><div className="medias">FACEBOOK</div></li>
-                        <li><div className="medias">PINTEREST</div></li>
-                        <li><div className="medias">TWITTER</div></li>
-                    </ul>
+                    <div>
+                        <ul className="right-medias">
+                            <li><div className="medias">INSTAGRAM</div></li>
+                            <li><div className="medias">FACEBOOK</div></li>
+                            <li><div className="medias">PINTEREST</div></li>
+                            <li><div className="medias">TWITTER</div></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

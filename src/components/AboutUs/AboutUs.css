@@ -30,6 +30,7 @@
 .header-subtext {
     font-weight: 400;
     font-size: 16px;
+    font-family: SFUFutura;
 
     width: 50%;
     text-align: center;
@@ -76,6 +77,7 @@
 }
 
 .bottom-right-text {
+    font-family: SFUFutura;
     font-weight: 400;
     font-size: 16px;
 

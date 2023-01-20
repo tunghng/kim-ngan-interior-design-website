@@ -4,6 +4,10 @@
     height: 40rem;
 }
 
+.bottom-right li, .bottom-right .medias, .bottom-left .left-heading, .bottom-left .agreetext {
+    font-family: SFUFutura;
+}
+
 .footer-top {
     display: flex;
     flex-direction: column;
@@ -99,7 +103,6 @@
 
 .left-checkbox {
     display: flex;
-    align-items: center;
 
     gap: 0.5rem;
 
