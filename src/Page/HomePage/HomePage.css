@@ -3,6 +3,30 @@
     font-family: PlayFairDisplay;
 }
 
+.homepage-header-container {
+    margin-bottom: 5%;
+    width: 633px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+    width: 18rem;
+}
+
+.header-text {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
 .swiper-container {
     width: 1000px;
     margin: 40px 0;

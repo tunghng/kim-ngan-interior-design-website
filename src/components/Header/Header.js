@@ -6,9 +6,23 @@ import { useEffect, useState } from "react";
 
 import { moveTo } from "../../utils/HelperFunction";
 
+
 const Header = (props) => {
+    const [header, setHeader] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 735) {
+            setHeader(true);
+        } else {
+            setHeader(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
+
     return (
-        <div className="header-container">
+        <div className={header ? 'header-container-active' : 'header-container'}>
             <div className="header-logo">
                 <div className="left" onClick={() => moveTo("/")}>
                     <div className="wrapper">

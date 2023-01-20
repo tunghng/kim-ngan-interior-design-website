@@ -21,6 +21,7 @@ import Products from "../../components/Products/Products";
 import "./HomePage.css";
 import Button from "../../components/Button/Button";
 import { moveTo } from "../../utils/HelperFunction";
+import vector from "../../assets/aboutUs/Vector.png";
 
 export default function HomePage() {
     SwiperCore.use([Autoplay]);
@@ -66,16 +67,10 @@ export default function HomePage() {
                         alignItems: "center",
                     }}
                 >
-                    <div style={{ marginBottom: "5%", width: "633px" }}>
-                        <div
-                            style={{
-                                textAlign: "center",
-                                fontSize: "40px",
-                                fontWeight: "600",
-                                fontStyle: "italic",
-                            }}
-                        >
-                            Section 1
+                    <div className="homepage-header-container">
+                        <div className="header-text-container products-header">
+                            <img src={vector} alt="" className="vector" />
+                            <div className="header-text">Gallery</div>
                         </div>
                         <div
                             style={{
@@ -127,6 +122,7 @@ export default function HomePage() {
                     </div>
                 </Swiper>
             </div>
+
             {/*Section 2*/}
             <div
                 className="section-2"
@@ -144,16 +140,10 @@ export default function HomePage() {
                         alignItems: "center",
                     }}
                 >
-                    <div style={{ marginBottom: "5%", width: "633px" }}>
-                        <div
-                            style={{
-                                textAlign: "center",
-                                fontSize: "40px",
-                                fontWeight: "600",
-                                fontStyle: "italic",
-                            }}
-                        >
-                            Section 2
+                    <div className="homepage-header-container">
+                        <div className="header-text-container products-header">
+                            <img src={vector} alt="" className="vector" />
+                            <div className="header-text">Dự án nổi bật</div>
                         </div>
                         <div
                             style={{
@@ -410,16 +400,10 @@ export default function HomePage() {
                         alignItems: "center",
                     }}
                 >
-                    <div style={{ marginBottom: "5%", width: "633px" }}>
-                        <div
-                            style={{
-                                textAlign: "center",
-                                fontSize: "40px",
-                                fontWeight: "600",
-                                fontStyle: "italic",
-                            }}
-                        >
-                            Section 3
+                    <div className="homepage-header-container">
+                        <div className="header-text-container products-header">
+                            <img src={vector} alt="" className="vector" />
+                            <div className="header-text">Dịch vụ</div>
                         </div>
                         <div
                             style={{

@@ -11,6 +11,27 @@
     border-bottom: 2px solid white;
 
     /* background: #d2b298; */
+    color: white;
+
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header-container-active {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 4rem;
+    width: 100%;
+    gap: 11rem;
+
+    border-bottom: 2px solid #dedede;
+
+    background: #E6E1DE;
+    color: #080604;
 
     clear: both;
     position: fixed;
@@ -28,7 +49,6 @@
 
     font-weight: 400;
     font-size: 20px;
-    color: white;
 }
 
 .header-pages {
@@ -41,7 +61,6 @@
 
     font-weight: 400;
     font-size: 20px;
-    color: white;
 }
 
 li {

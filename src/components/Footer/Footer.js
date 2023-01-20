@@ -80,12 +80,12 @@ const Footer = (props) => {
                         </ul>
                     </div>
                     
-                    <div className="right-medias">
-                        <div className="medias">INSTAGRAM</div>
-                        <div className="medias">FACEBOOK</div>
-                        <div className="medias">PINTEREST</div>
-                        <div className="medias">TWITTER</div>
-                    </div>
+                    <ul className="right-medias">
+                        <li><div className="medias">INSTAGRAM</div></li>
+                        <li><div className="medias">FACEBOOK</div></li>
+                        <li><div className="medias">PINTEREST</div></li>
+                        <li><div className="medias">TWITTER</div></li>
+                    </ul>
                 </div>
             </div>
         </div>
