@@ -86,18 +86,6 @@
     width: 80%;
 }
 
-.buttonSec2 {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top: 32px;
-    width: 152px;
-    height: 44px;
-    border:none;
-    gap:10px;
-    background:linear-gradient(90deg, #D59E19 0%, #BB7E2F 100%);
-}
-
 .buttonSec2 div {
     color: #F2F2F2;
 }
