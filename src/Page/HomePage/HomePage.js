@@ -20,6 +20,8 @@ import sample_banner from "../../assets/navbar/background.jpg"
 import AboutUs from "../../components/AboutUs/AboutUs";
 
 import "./HomePage.css";
+import Button from "../../components/Button/Button";
+import {moveTo} from "../../utils/HelperFunction";
 
 export default function HomePage() {
 
@@ -48,7 +50,7 @@ export default function HomePage() {
                  style={{
                      paddingTop:"97px",
                      paddingBottom:"97px",
-                     backgroundColor:"#FCFBF7"
+                     backgroundColor:"#E6E1DE"
             }}>
                 <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
                     <div style={{marginBottom:"5%", width:"633px"}}>
@@ -188,6 +190,56 @@ export default function HomePage() {
                                     </button>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Section3*/}
+            <div className="section-3"
+                 style={{
+                     paddingTop:"97px",
+                     backgroundColor:"#E6E1DE"
+                 }}>
+                <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+                    <div style={{marginBottom:"5%", width:"633px"}}>
+                        <div style={{textAlign:"center", fontSize:"40px", fontWeight:"600", fontStyle:"italic"}}>Section 3</div>
+                        <div style={{textAlign:"center", marginTop:"20px", fontWeight:"400"}}>
+                            Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
+                            được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
+                        </div>
+                    </div>
+                </div>
+                <div className="section3-content" style={{display:"flex", flexDirection:"row",height:"35rem"}}>
+                    <div className="left-row" style={{width:"50%", display:"flex", justifyContent:"center", alignItems:"center"}}>
+                        <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+                            <div className="text">Thiết kế ngoại thất</div>
+                            <Button
+                                styles={{
+                                    height: "3rem",
+                                    width: "8rem",
+                                    "margin-right": "0",
+                                    "margin-bottom": "0",
+                                    padding: "0.05rem 1.5rem",
+                                    color: "#ffffff",
+                                }}
+                                content="Khám phá"
+                                handleClick={() => moveTo("/")}/>
+                        </div>
+                    </div>
+                    <div className="right-row" style={{width:"50%", display:"flex", justifyContent:"center", alignItems:"center"}}>
+                        <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+                            <div className="text">Thiết kế nội thất</div>
+                            <Button
+                                styles={{
+                                    height: "3rem",
+                                    width: "8rem",
+                                    "margin-right": "0",
+                                    "margin-bottom": "0",
+                                    padding: "0.05rem 1.5rem",
+                                    color: "#ffffff",
+                                }}
+                                content="Khám phá"
+                                handleClick={() => moveTo("/")}/>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@
     font-weight: 600;
     font-size: 3.5rem;
 
-    width: 60%;
+    max-width: 50%;
 
     text-align: center;
 
@@ -67,15 +67,17 @@
 
 .left-checkbox {
     display: flex;
+    align-items: center;
+
     gap: 0.5rem;
+
+    padding-top: 0.8rem;
 }
 
 .agreetext {
     font-weight: 400;
     font-size: 14px;
     color: #d0c2b0;
-
-    padding-top: 0.8rem;
 
     width: 90%;
 }

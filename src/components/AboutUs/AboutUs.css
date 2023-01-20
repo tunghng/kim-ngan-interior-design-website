@@ -1,7 +1,7 @@
 .aboutUs-container {
-    height: 50rem;
     width: 100%;
-
+    padding-top: 97px;
+    padding-bottom: 97px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,11 +52,27 @@
 }
 
 .aboutUs-bottom {
-    width: 75%;
-    padding-top: 2rem;
-
     display: flex;
-    gap: 17rem;
+    justify-content: center;
+    align-items: center;
+
+    width: 75%;
+    padding-top: 3rem;
+}
+
+.aboutUs-bottom-left {
+    width: 100%;
+}
+
+.bottom-left-text {
+    font-size: 1.7rem;
+
+    margin-bottom: 24px;
+}
+
+.aboutUs-bottom-right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bottom-right-text {
