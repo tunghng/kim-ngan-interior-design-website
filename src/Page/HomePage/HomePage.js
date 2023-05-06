@@ -15,7 +15,7 @@ import section2Img from "../../image/section2_img.png";
 // import required modules
 import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
 
-import AboutUs from "../../components/AboutUs/AboutUs";
+import AboutUs from "../../components/AboutUsComp/AboutUs";
 import Products from "../../components/Products/Products";
 
 import "./HomePage.css";
