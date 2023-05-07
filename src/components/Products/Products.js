@@ -29,8 +29,8 @@ const Products = (props) => {
 
     return (
         <div className="products-container">
-            <div className="header-text-container products-header">
-                <img src={vector} alt="" className="vector" />
+            <div className="header-text-container products-header" style={{width:"100%"}}>
+                <img src={vector} alt=""className="vector" />
                 <div className="header-text">Sản phẩm của chúng tôi</div>
             </div>
 
@@ -40,30 +40,30 @@ const Products = (props) => {
             </div>
 
             <div className="product-bottom">
-                {imageData.id == 0 &&
-                    <img className="product-image-left" src={imageData.value} />
+                {imageData.id === 0 &&
+                    <img className="product-image-left" src={imageData.value}  alt=""/>
                 }
 
-                {imageData.id == 2 &&
-                    <img className="product-image-left" src={imageData.value} />
+                {imageData.id === 2 &&
+                    <img className="product-image-left" src={imageData.value}  alt=""/>
                 }
 
-                {imageData.id == 4 &&
-                    <img className="product-image-left" src={imageData.value} />
+                {imageData.id === 4 &&
+                    <img className="product-image-left" src={imageData.value}  alt=""/>
                 }
                 
-                {imageData.id == 1 &&
-                    <img className="product-image-right" src={imageData.value} />
+                {imageData.id === 1 &&
+                    <img className="product-image-right" src={imageData.value}  alt=""/>
                 }
 
-                {imageData.id == 3 &&
-                    <img className="product-image-right" src={imageData.value} />
+                {imageData.id === 3 &&
+                    <img className="product-image-right" src={imageData.value}  alt=""/>
                 }
 
                 <div className="bottom-sections">
                     {imgs.map((data, i) => (
                         <div
-                            className={imageData.id == i ? "clicked" : "section-name"}
+                            className={imageData.id === i ? "clicked" : "section-name"}
                             key={data.id}
                             onClick={() => handleClick(i)}
                         >
@@ -72,24 +72,24 @@ const Products = (props) => {
                     ))}
                 </div>
 
-                {imageData.id == 0 &&
-                    <img className="product-image-1" src={imageData.value} />
+                {imageData.id === 0 &&
+                    <img className="product-image-1" src={imageData.value}  alt=""/>
                 }
 
-                {imageData.id == 2 &&
-                    <img className="product-image-right" src={imageData.value} />
+                {imageData.id === 2 &&
+                    <img className="product-image-right" src={imageData.value}  alt=""/>
                 }
 
-                {imageData.id == 4 &&
-                    <img className="product-image-right" src={imageData.value} />
+                {imageData.id === 4 &&
+                    <img className="product-image-right" src={imageData.value}  alt=""/>
                 }
                 
-                {imageData.id == 1 &&
-                    <img className="product-image-left" src={imageData.value} />
+                {imageData.id === 1 &&
+                    <img className="product-image-left" src={imageData.value}  alt=""/>
                 }
                 
-                {imageData.id == 3 &&
-                    <img className="product-image-left" src={imageData.value} />
+                {imageData.id === 3 &&
+                    <img className="product-image-left" src={imageData.value}  alt=""/>
                 }
             </div>
         </div>

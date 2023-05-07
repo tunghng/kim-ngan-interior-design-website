@@ -3,6 +3,7 @@
     align-items: center;
     padding-top: 10rem;
     background: url("../../assets/productPage/hero_product.png") no-repeat;
+    background-size: cover;
     border-radius: 0px;
     height: 40rem;
     flex-direction: column;
@@ -94,66 +95,66 @@
 }
 
 .other {
-    padding-left: 8%;
-    padding-right: 8%;
     background: #E6E1DE;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem 8%;
 }
 
 .other-project {
     display: flex;
     justify-content: space-between;
-    height: 20rem;
     width: 100%;
 }
-
-
 
 .img__wrap {
     position: relative;
     width: 32%;
-    height: 17.5rem;
+    height: auto;
+
   }
 
 .img__img {
     width: 100%;
 }
-  .img__description_layer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* width: 2; */
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-  }
+    .img__description_layer {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border: 2px;
+        border-color: #D59E19;
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 2; */
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
 
 .text {
     width: 70%;
 }
 
+.text .body {
+    margin-bottom: 38px;
+}
 
-  .img__wrap:hover .img__description_layer {
+.img__wrap:hover .img__description_layer {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .img__description {
+}
+
+.img__description {
     transition: .2s;
     transform: translateY(1em);
-  }
-  
-  .img__wrap:hover .img__description {
+}
+
+.img__wrap:hover .img__description {
     transform: translateY(0);
-  }
+}

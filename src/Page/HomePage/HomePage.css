@@ -1,6 +1,6 @@
 
 * {
-    font-family: PlayFairDisplay;
+    font-family: Montserrat;
 }
 
 .homepage-header-container {
@@ -28,53 +28,8 @@
 }
 
 .subHeader-text {
-    font-family: SFUFutura;
+    font-family: Montserrat;
 }
-
-.swiper-container {
-    width: 1000px;
-    padding: 45px 0;
-}
-
-.swiper-wrapper {
-    align-items: center;
-}
-
-.swiper-slide {
-    opacity: 0.9;
-    overflow: hidden;
-    transition: linear;
-}
-
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-}
-
-.swiper-paination-bullet {
-    background-color: #23211F;
-    width: 10%;
-}
-
-.swiper-pagination-bullet-active {
-    transition: visibility;
-    background-color: #23211F;
-    min-width: 30px;
-    width: 1%;
-    border-radius: 16px;
-}
-
-.swiper-slide-active {
-    opacity: 1;
-    z-index: 1;
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 3%;
-    margin-bottom: 10px;
-}
-
 
 #banner {
     display: flex;
@@ -89,29 +44,30 @@
     text-align: center;
 }
 
-.section2-content {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    gap:10%;
-    margin-bottom: 10%;
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E1DE;
+    padding: 8% 0 2% 0;
 }
 
-.section2-content .heading {
-    font-size:40px;
-    font-weight:600;
-    font-style:italic;
+.section-2 .left {
+    width: 35%;
 }
 
-.section2-content .text {
-    font-family: SFUFutura;
-    font-size: 110%;
-    margin-top: 30px;
-    max-width: 464px;
+.section-2 .left .text {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 21px;
 }
 
-.section2-content .section2-img {
-    width: 80%;
+.section-2 .left .text p {
+    font-size: 18px;
+    padding: 25px 40px;
+}
+
+.section-2 .right {
+    width: 28%;
 }
 
 .buttonSec2 div {
@@ -120,7 +76,6 @@
 
 .section3-content .left-row {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../image/section3_left_img.png") no-repeat;
-
     background-position: center;
     background-size: cover;
 }
@@ -132,7 +87,7 @@
 }
 
 .section3-content .text {
-    font-family: SFUFutura;
+    font-family: Montserrat;
     font-size: 2.5rem;
     color: white;
     font-weight: 700;

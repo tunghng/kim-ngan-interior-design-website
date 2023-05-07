@@ -7,11 +7,8 @@ import img3 from "../../assets/productPage/dummy3.png";
 import long_img from "../../assets/productPage/wide_dummy.png";
 import other1 from "../../assets/productPage/other_product1.png";
 import other2 from "../../assets/productPage/other_product2.png";
-import other3 from "../../assets/productPage/other_product3.png";
 
 import Button from "../../components/Button/Button";
-
-import { useState } from "react";
 
 export default function Products() {
   return (
@@ -247,113 +244,104 @@ export default function Products() {
 
         <div className="other-project">
           <div className="img__wrap">
-            <img class="img__img" src={other1} alt="" />
-            <div class="img__description_layer">
-              <div className="text">
-                <div
-                  className="title"
-                  style={{
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    fontSize: "24px",
-                    lineHeight: "40px",
-                    marginBottom: "1rem",
-                  }}
-                >
-                  Title 1
-                </div>
-                <div className="body">
-                  Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
-                  được làm từ gỗ sản phẩm
-                </div>
-                <Button
-                  styles={{
-                    height: "2.5rem",
-                    width: "7.5rem",
-                    "margin-right": "0",
-                    "margin-bottom": "0",
-                    padding: "0.05rem 1.5rem",
-                    color: "#ffffff",
-                    "margin-top": "2rem",
-                  }}
-                  content="Xem thêm"
-                  // handleClick={() => moveTo("/")}
-                />
-              </div>
+            <img className="img__img" src={other1} alt="" />
+            <div className="img__description_layer">
+                  <div className="text">
+                    <div
+                      className="title"
+                      style={{
+                        fontStyle: "normal",
+                        fontWeight: "700",
+                        fontSize: "24px",
+                        lineHeight: "40px",
+                        marginBottom: "1rem",
+                      }}
+                    >
+                      Title 1
+                    </div>
+                    <div className="body">
+                      Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
+                      được làm từ gỗ sản phẩm
+                    </div>
+                    <Button
+                      styles={{
+                        height: "2.5rem",
+                        width: "7.5rem",
+                        padding: "0.05rem 1.5rem",
+                        color: "#ffffff"
+                      }}
+                      content="Xem thêm"
+                      // handleClick={() => moveTo("/")}
+                    />
+                  </div>
             </div>
           </div>
 
           <div className="img__wrap">
-            <img class="img__img" src={other2} alt="" />
-            <div class="img__description_layer">
-            <div className="text">
-                <div
-                  className="title"
-                  style={{
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    fontSize: "24px",
-                    lineHeight: "40px",
-                    marginBottom: "1rem",
-                  }}
-                >
-                  Title 1
+            <img className="img__img" src={other2} alt="" />
+            <div className="img__description_layer">
+                <div className="text">
+                    <div
+                      className="title"
+                      style={{
+                        fontStyle: "normal",
+                        fontWeight: "700",
+                        fontSize: "24px",
+                        lineHeight: "40px",
+                        marginBottom: "1rem",
+                      }}
+                    >
+                      Title 1
+                    </div>
+                    <div className="body">
+                      Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
+                      được làm từ gỗ sản phẩm
+                    </div>
+                    <Button
+                      styles={{
+                        height: "2.5rem",
+                        width: "7.5rem",
+                        padding: "0.05rem 1.5rem",
+                        color: "#ffffff"
+                      }}
+                      content="Xem thêm"
+                      // handleClick={() => moveTo("/")}
+                    />
                 </div>
-                <div className="body">
-                  Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
-                  được làm từ gỗ sản phẩm
-                </div>
-                <Button
-                  styles={{
-                    height: "2.5rem",
-                    width: "7.5rem",
-                    "margin-right": "0",
-                    "margin-bottom": "0",
-                    padding: "0.05rem 1.5rem",
-                    color: "#ffffff",
-                    "margin-top": "2rem",
-                  }}
-                  content="Xem thêm"
-                  // handleClick={() => moveTo("/")}
-                />
-              </div>
             </div>
           </div>
 
           <div className="img__wrap">
-            <img class="img__img" src={other1} alt="" />
-            <div class="img__description_layer">
-            <div className="text">
-                <div
-                  className="title"
-                  style={{
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    fontSize: "24px",
-                    lineHeight: "40px",
-                    marginBottom: "1rem",
-                  }}
-                >
-                  Title 1
+            <img className="img__img" src={other1} alt="" />
+            <div className="img__description_layer">
+                <div className="text">
+                    <div
+                      className="title"
+                      style={{
+                        fontStyle: "normal",
+                        fontWeight: "700",
+                        fontSize: "24px",
+                        lineHeight: "40px",
+                        marginBottom: "1rem",
+                      }}
+                    >
+                      Title 1
+                    </div>
+                    <div className="body">
+                      Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
+                      được làm từ gỗ sản phẩm
+                    </div>
+                    <Button
+                      styles={{
+                        height: "2.5rem",
+                        width: "7.5rem",
+                        padding: "0.05rem 1.5rem",
+                        color: "#ffffff"
+                      }}
+                      content="Xem thêm"
+                      // handleClick={() => moveTo("/")}
+                    />
                 </div>
-                <div className="body">
-                  Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm
-                  được làm từ gỗ sản phẩm 
-                </div>
-                <Button
-                  styles={{
-                    height: "2.5rem",
-                    width: "7.5rem",
-                    "margin-right": "0",
-                    "margin-bottom": "0",
-                    padding: "0.05rem 1.5rem",
-                    color: "#ffffff",
-                    "margin-top": "2rem",
-                  }}
-                  content="Xem thêm"
-                  // handleClick={() => moveTo("/")}
-                />
-              </div>
             </div>
           </div>
         </div>

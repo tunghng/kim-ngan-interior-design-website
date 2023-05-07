@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Header.css";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { moveTo } from "../../utils/HelperFunction";
 
@@ -26,27 +26,24 @@ const Header = (props) => {
         <div className={header ? 'header-container-active' : 'header-container'}>
             <div className="header-logo">
                 <div className="left" onClick={() => moveTo("/")}>
-                    <div 
-                        className="wrapper"
-                        
-                    >
+                    <div className="wrapper">
                         <img 
                             src={brand_logo}
                             style = {{
                                 width: "3rem"
                             }}
-                        />
-                        
+                            alt=""/>
                     </div>
                 </div>
             </div>
 
             <div>
                 <ul className="header-pages">
-                    <li onClick={() => moveTo("/product")}>Products</li>
-                    <li onClick={() => moveTo("/project")}>Projects</li>
-                    <li onClick={() => moveTo("/aboutus")}>About us</li>
-                    <li onClick={() => moveTo("/contact")}>Contact</li>
+                    <li onClick={() => moveTo("/")}>Trang chủ</li>
+                    <li onClick={() => moveTo("/product")}>Sản phẩm</li>
+                    <li onClick={() => moveTo("/project")}>Dự án</li>
+                    <li onClick={() => moveTo("/aboutus")}>Về chúng tôi</li>
+                    <li onClick={() => moveTo("/contact")}>Liên hệ</li>
                 </ul>
             </div>
 

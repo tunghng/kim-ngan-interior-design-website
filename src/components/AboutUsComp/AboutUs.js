@@ -6,7 +6,7 @@ import vector from "../../assets/aboutUs/Vector.png"
 import Button from "../Button/Button";
 
 import { moveTo } from "../../utils/HelperFunction";
-import section2Img from "../../image/section2_img.png";
+
 import React from "react";
 
 const AboutUs = (props) => {

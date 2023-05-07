@@ -7,6 +7,7 @@ import "./Footer.css";
 import Button from "../Button/Button";
 
 import { moveTo } from "../../utils/HelperFunction";
+import brand_logo from "../../assets/navbar/brand_logo.png"
 
 const Footer = (props) => {
     const [isBoxChecked, setIsBoxChecked] = useState(false);
@@ -18,22 +19,29 @@ const Footer = (props) => {
     return (
         <div className="footer">
             <div className="footer-top">
-                <div className="top-heading">
-                    We provide best handpicked home decor
+                <div className="left">
+                    <img src={brand_logo} alt="" style={{width:"8rem"}}/>
+                    <h5 style={{fontWeight:"700"}}>NỘI THẤT KIM NGÂN</h5>
+                    <p style={{width:"50%"}}>Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được
+                        làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
+                    </p>
                 </div>
+                <div className="right">
+                    <div className="top-heading">
+                        We provide best handpicked home decor
+                    </div>
 
-                <Button
-                    styles={{
-                        height: "3rem",
-                        width: "20rem",
-                        "margin-right": "0",
-                        "margin-bottom": "0",
-                        padding: "0.05rem 1.5rem",
-                        color: "#ffffff",
-                    }}
-                    content="Khám phá tất cả sản phẩm"
-                    handleClick={() => moveTo("/")}
-                ></Button>
+                    <Button
+                        styles={{
+                            height: "3rem",
+                            width: "20rem",
+                            padding: "0.05rem 1.5rem",
+                            color: "#ffffff",
+                        }}
+                        content="Khám phá tất cả sản phẩm"
+                        handleClick={() => moveTo("/")}
+                    ></Button>
+                </div>
             </div>
 
             <div className="footer-bottom">

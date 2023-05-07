@@ -23,7 +23,7 @@ const Button = (props) => {
         {props.content}
 
         {props.icon &&
-            <img src = {props.icon}></img>
+            <img src = {props.icon} alt=""></img>
         }
     </div>
 }

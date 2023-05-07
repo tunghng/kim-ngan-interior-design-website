@@ -1,30 +1,40 @@
 .footer {
     background: #23211f;
     padding: 0 7rem;
-    height: 40rem;
+    height: auto;
 }
 
 .bottom-right li, .bottom-right .medias, .bottom-left .left-heading, .bottom-left .agreetext {
-    font-family: SFUFutura;
+    font-family: Montserrat;
 }
 
 .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23rem;
+    padding: 2rem;
+}
+
+.footer-top .left {
+    color: white;
+    margin-right: auto;
+}
+
+.footer-top .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     gap: 3rem;
-
-    padding: 3.5rem 0;
+    width: 40%;
 }
 
-.top-heading {
+.right .top-heading {
     font-style: italic;
     font-weight: 600;
-    font-size: 3.5rem;
-
-    max-width: 60%;
+    font-size: 3rem;
 
     text-align: center;
 
@@ -36,7 +46,7 @@
     /* align-items: center; */
 
     width: 100%;
-    height: 17rem;
+    height: auto;
 }
 
 .bottom-left {

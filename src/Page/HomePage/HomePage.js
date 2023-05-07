@@ -1,6 +1,4 @@
 import React from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,10 +8,7 @@ import "swiper/css/autoplay";
 
 import "./HomePage.css";
 
-import section2Img from "../../image/section2_img.png";
-
 // import required modules
-import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper";
 
 import AboutUs from "../../components/AboutUsComp/AboutUs";
 import Products from "../../components/Products/Products";
@@ -23,19 +18,9 @@ import Button from "../../components/Button/Button";
 import { moveTo } from "../../utils/HelperFunction";
 import vector from "../../assets/aboutUs/Vector.png";
 
+import section2_img from "../../assets/HomePage/section2_img.png";
+
 export default function HomePage() {
-    SwiperCore.use([Autoplay]);
-    const data = [
-        {
-            image: require("../../image/image_slider.png"),
-        },
-        {
-            image: require("../../image/image_slider.png"),
-        },
-        {
-            image: require("../../image/image_slider.png"),
-        },
-    ];
     return (
         <div className="w-100">
             {/*banner*/}
@@ -43,348 +28,38 @@ export default function HomePage() {
                 <div
                     style={{
                         width: "50%",
-                        fontSize: "400%",
-                        fontWeight: "500",
-                        fontStyle: "italic",
+                        fontSize: "350%",
+                        fontWeight: "700"
                     }}
                 >
                     We create furniture for your home and business
                 </div>
             </div>
-            {/*section 1*/}
-            <div
-                className="section-1"
-                style={{
-                    paddingTop: "97px",
-                    paddingBottom: "97px",
-                    backgroundColor: "#E6E1DE",
-                }}
-            >
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    <div className="homepage-header-container" style={{marginBottom:"-5px"}}>
-                        <div className="header-text-container products-header">
-                            <img src={vector} alt="" className="vector" />
-                            <div className="header-text">Gallery</div>
-                        </div>
-                        <div className="subHeader-text"
-                            style={{
-                                textAlign: "center",
-                                marginTop: "20px",
-                                fontWeight: "400",
-                            }}
-                        >
-                            Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-                            sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản
-                            phẩm được làm từ gỗ
-                        </div>
-                    </div>
-                </div>
-                <Swiper
-                    slidesPerView={2.01}
-                    spaceBetween={5}
-                    slidesPerGroup={1}
-                    centeredSlides={true}
-                    grabCursor={true}
-                    speed={700}
-                    loop={true}
-                    loopFillGroupWithBlank={true}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    navigation={true}
-                    autoplay={{ delay: 2000 }}
-                    modules={[Pagination, Navigation]}
-                    slideToClickedSlide={true}
-                    className="mySwiper"
-                >
-                    <div className="swiper-wrapper">
-                        {data.map((item, key) => (
-                            <SwiperSlide>
-                                {({ isActive }) => (
-                                    <img
-                                        className={
-                                            isActive
-                                                ? "swiper-slide-active"
-                                                : "swiper-slide"
-                                        }
-                                        src={item.image}
-                                        alt="#"
-                                    />
-                                )}
-                            </SwiperSlide>
-                        ))}
-                    </div>
-                </Swiper>
-            </div>
 
             {/*Section 2*/}
-            <div
-                className="section-2"
-                style={{
-                    paddingTop: "97px",
-                    paddingBottom: "97px",
-                    backgroundColor: "#23211F",
-                    color: "white",
-                }}
-            >
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    <div className="homepage-header-container">
-                        <div className="header-text-container products-header">
-                            <img src={vector} alt="" className="vector" />
-                            <div className="header-text">Dự án nổi bật</div>
-                        </div>
-                        <div className="subHeader-text"
-                            style={{
-                                textAlign: "center",
-                                marginTop: "20px",
-                                fontWeight: "400",
-                            }}
-                        >
-                            Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-                            sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản
-                            phẩm được làm từ gỗ
-                        </div>
+            <div className="section-2">
+                <div className="left">
+                    <div>nhà sáng lập <span style={{fontSize:"24px", fontWeight:"700"}}>Nội thất Kim Ngân</span></div>
+                    <div className="text">
+                        <p>Do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam,
+                            nostrud exercitation ullamco laboris.Do eiusmod tempor incididunt ut labore et magna aliqua.
+                            Ut enim ad minim veniam, nostrud exercitation ullamco laboris.Do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris.Do eiusmod tempor
+                            incididunt ut labore et magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris.
+                        </p>
                     </div>
                 </div>
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    <div>
-                        <div className="section2-content">
-                            <div>
-                                <img
-                                    className="section2-img"
-                                    src={section2Img}
-                                    alt=""
-                                />
-                            </div>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    alignItems: "center",
-                                }}
-                            >
-                                <div>
-                                    <div className="heading">
-                                        Dự án nhà ở cao cấp
-                                    </div>
-                                    <div
-                                        className="text"
-                                        style={{ maxWidth: "464px" }}
-                                    >
-                                        Các sản phẩm được làm từ gỗ sản phẩm
-                                        được làm từ gỗ sản phẩm được làm từ gỗ
-                                        sản phẩm được làm từ gỗ sản phẩm được
-                                        làm từ gỗ
-                                    </div>
-                                    <Button
-                                        styles={{
-                                            height: "2.5rem",
-                                            width: "7.5rem",
-                                            "margin-right": "0",
-                                            "margin-bottom": "0",
-                                            padding: "0.05rem 1.5rem",
-                                            color: "#ffffff",
-                                            "margin-top": "2rem"
-                                        }}
-                                        content="Xem thêm"
-                                        handleClick={() => moveTo("/")}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="section2-content">
-                            <div
-                                style={{
-                                    display: "flex",
-                                    alignItems: "center",
-                                }}
-                            >
-                                <div>
-                                    <div className="heading">
-                                        Dự án nhà ở cao cấp
-                                    </div>
-                                    <div className="text">
-                                        Các sản phẩm được làm từ gỗ sản phẩm
-                                        được làm từ gỗ sản phẩm được làm từ gỗ
-                                        sản phẩm được làm từ gỗ sản phẩm được
-                                        làm từ gỗ
-                                    </div>
-                                    <Button
-                                        styles={{
-                                            height: "2.5rem",
-                                            width: "7.5rem",
-                                            "margin-right": "0",
-                                            "margin-bottom": "0",
-                                            padding: "0.05rem 1.5rem",
-                                            color: "#ffffff",
-                                            "margin-top": "2rem"
-                                        }}
-                                        content="Xem thêm"
-                                        handleClick={() => moveTo("/")}
-                                    />
-                                </div>
-                            </div>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "flex-end",
-                                }}
-                            >
-                                <img
-                                    className="section2-img"
-                                    src={section2Img}
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                        <div className="section2-content">
-                            <div>
-                                <img
-                                    className="section2-img"
-                                    src={section2Img}
-                                    alt=""
-                                />
-                            </div>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "center",
-                                    alignItems: "center",
-                                }}
-                            >
-                                <div>
-                                    <div className="heading">
-                                        Dự án nhà ở cao cấp
-                                    </div>
-                                    <div className="text">
-                                        Các sản phẩm được làm từ gỗ sản phẩm
-                                        được làm từ gỗ sản phẩm được làm từ gỗ
-                                        sản phẩm được làm từ gỗ sản phẩm được
-                                        làm từ gỗ
-                                    </div>
-                                    <Button
-                                        styles={{
-                                            height: "2.5rem",
-                                            width: "7.5rem",
-                                            "margin-right": "0",
-                                            "margin-bottom": "0",
-                                            padding: "0.05rem 1.5rem",
-                                            color: "#ffffff",
-                                            "margin-top": "2rem"
-                                        }}
-                                        content="Xem thêm"
-                                        handleClick={() => moveTo("/")}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="section2-content">
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "center",
-                                    alignItems: "center",
-                                }}
-                            >
-                                <div>
-                                    <div className="heading">
-                                        Dự án nhà ở cao cấp
-                                    </div>
-                                    <div className="text">
-                                        Các sản phẩm được làm từ gỗ sản phẩm
-                                        được làm từ gỗ sản phẩm được làm từ gỗ
-                                        sản phẩm được làm từ gỗ sản phẩm được
-                                        làm từ gỗ
-                                    </div>
-                                    <Button
-                                        styles={{
-                                            height: "2.5rem",
-                                            width: "7.5rem",
-                                            "margin-right": "0",
-                                            "margin-bottom": "0",
-                                            padding: "0.05rem 1.5rem",
-                                            color: "#ffffff",
-                                            "margin-top": "2rem"
-                                        }}
-                                        content="Xem thêm"
-                                        handleClick={() => moveTo("/")}
-                                    />
-                                </div>
-                            </div>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "flex-end",
-                                }}
-                            >
-                                <img
-                                    className="section2-img"
-                                    src={section2Img}
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                        <div className="section2-content">
-                            <div>
-                                <img
-                                    className="section2-img"
-                                    src={section2Img}
-                                    alt=""
-                                />
-                            </div>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "center",
-                                    alignItems: "center",
-                                }}
-                            >
-                                <div>
-                                    <div className="heading">
-                                        Dự án nhà ở cao cấp
-                                    </div>
-                                    <div className="text">
-                                        Các sản phẩm được làm từ gỗ sản phẩm
-                                        được làm từ gỗ sản phẩm được làm từ gỗ
-                                        sản phẩm được làm từ gỗ sản phẩm được
-                                        làm từ gỗ
-                                    </div>
-                                    <Button
-                                        styles={{
-                                            height: "2.5rem",
-                                            width: "7.5rem",
-                                            "margin-right": "0",
-                                            "margin-bottom": "0",
-                                            padding: "0.05rem 1.5rem",
-                                            color: "#ffffff",
-                                            "margin-top": "2rem"
-                                        }}
-                                        content="Xem thêm"
-                                        handleClick={() => moveTo("/")}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="right">
+                    <img src={section2_img} alt=""/>
+                    <div style={{width:"80px", height:"4px", backgroundColor:"#D59E19", borderRadius:"20px", marginTop:"50px"}} />
+                    <h3 style={{color:"#D59E19", fontSize:"24px"}}>Nguyễn Thị Kim Ngân</h3>
+                    <h4 style={{color:"#3D290D", fontWeight:"500", fontSize:"18px"}}>CEO of Noi That Kim Ngan</h4>
+                    <p style={{color:"#64543D"}}>Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris.</p>
                 </div>
             </div>
+
+
             {/*Section3*/}
             <div
                 className="section-3"
@@ -403,7 +78,7 @@ export default function HomePage() {
                     <div className="homepage-header-container">
                         <div className="header-text-container products-header">
                             <img src={vector} alt="" className="vector" />
-                            <div className="header-text">Dịch vụ</div>
+                            <div className="header-text">Sản phẩm</div>
                         </div>
                         <div className="subHeader-text"
                             style={{
@@ -437,13 +112,14 @@ export default function HomePage() {
                     >
                         <div
                             style={{
+                                width:"100%",
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
                                 alignItems: "center",
                             }}
                         >
-                            <div className="text">Thiết kế ngoại thất</div>
+                            <div className="text">Sản phẩm gỗ thật</div>
                             <Button
                                 styles={{
                                     height: "3rem",
@@ -454,7 +130,7 @@ export default function HomePage() {
                                     color: "#ffffff",
                                 }}
                                 content="Khám phá"
-                                handleClick={() => moveTo("/")}
+                                handleClick={() => moveTo("/product")}
                             />
                         </div>
                     </div>

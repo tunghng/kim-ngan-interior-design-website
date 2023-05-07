@@ -8,10 +8,10 @@
     width: 100%;
     gap: 11rem;
 
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid #E6E1DE;
 
     /* background: #d2b298; */
-    color: white;
+    color: #E6E1DE;
 
     clear: both;
     position: fixed;
@@ -64,7 +64,7 @@
 }
 
 .header-pages li {
-    font-family: SFUFutura;
+    font-family: Montserrat;
 }
 
 li {
