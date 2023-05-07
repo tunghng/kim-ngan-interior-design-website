@@ -70,23 +70,51 @@
     width: 28%;
 }
 
-.buttonSec2 div {
-    color: #F2F2F2;
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 24px;
+
+    background-color: #272523;
 }
 
-.section3-content .left-row {
+.section-3 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 464px;
+    height: 239px;
+
+    border: 10px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #D1991C, #C58A2600);
+}
+
+.section-3 h1 {
+    color: #D59E19;
+}
+
+.section-3 h2 {
+    color: #E6E1DE;
+}
+
+.section4-content .left-row {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../image/section3_left_img.png") no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.section3-content .right-row {
+.section4-content .right-row {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../image/section3_right_img.png") no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.section3-content .text {
+.section4-content .text {
     font-family: Montserrat;
     font-size: 2.5rem;
     color: white;

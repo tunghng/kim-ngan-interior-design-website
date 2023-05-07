@@ -59,10 +59,25 @@ export default function HomePage() {
                 </div>
             </div>
 
-
             {/*Section3*/}
+            <div className="section-3">
+                <div>
+                    <h1>180+</h1>
+                    <h2>Clients Served</h2>
+                </div>
+                <div>
+                    <h1>10+</h1>
+                    <h2>Years of experience</h2>
+                </div>
+                <div>
+                    <h1>5+</h1>
+                    <h2>Office world wide</h2>
+                </div>
+            </div>
+
+            {/*Section4*/}
             <div
-                className="section-3"
+                className="section-4"
                 style={{
                     paddingTop: "97px",
                     backgroundColor: "#E6E1DE",
@@ -94,7 +109,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div
-                    className="section3-content"
+                    className="section4-content"
                     style={{
                         display: "flex",
                         flexDirection: "row",
