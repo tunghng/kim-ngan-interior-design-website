@@ -49,7 +49,7 @@
     justify-content: center;
     align-items: center;
     background-color: #E6E1DE;
-    padding: 8% 0 2% 0;
+    padding: 5% 0 2% 0;
 }
 
 .section-2 .left {
@@ -71,6 +71,9 @@
 }
 
 .section-3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +94,7 @@
 
     border: 10px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to right, #D1991C, #C58A2600);
+    border-image-source: linear-gradient(#D1991C, #C58A2600);
 }
 
 .section-3 h1 {
@@ -102,19 +105,73 @@
     color: #E6E1DE;
 }
 
-.section4-content .left-row {
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .section4-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.section4-content .partnership-top-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section4-content .partnership-top {
+    width: 464px;
+    height: 140px;
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-content .partnership-bottom-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section4-content .partnership-bottom {
+    width: 464px;
+    height: 140px;
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-content img {
+    height: 100px;
+}
+
+.section5-content .left-row {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../image/section3_left_img.png") no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.section4-content .right-row {
+.section5-content .right-row {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../image/section3_right_img.png") no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.section4-content .text {
+.section5-content .text {
     font-family: Montserrat;
     font-size: 2.5rem;
     color: white;

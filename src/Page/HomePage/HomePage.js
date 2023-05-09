@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -21,6 +21,16 @@ import vector from "../../assets/aboutUs/Vector.png";
 import section2_img from "../../assets/HomePage/section2_img.png";
 
 export default function HomePage() {
+    const partnership = [
+        {name: "British Council", image: require("../../assets/HomePage/BritishCouncil.png"), position: 0},
+        {name: "Ignou", image: require("../../assets/HomePage/Ignoupng.png"), position: 0},
+        {name: "Goethe Institut", image: require("../../assets/HomePage/GoetheInstitut.png"), position: 0},
+        {name: "JapanFoundation", image: require("../../assets/HomePage/JapanFoundation.png"), position: 1},
+        {name: "British Council", image: require("../../assets/HomePage/BritishCouncil.png"), position: 1}
+    ]
+
+    const [imagePosition, setImagePosition] = useState(partnership[2])
+
     return (
         <div className="w-100">
             {/*banner*/}
@@ -75,9 +85,58 @@ export default function HomePage() {
                 </div>
             </div>
 
-            {/*Section4*/}
+            <Products></Products>
+
+            {/*section4*/}
+
+            <div className="section-4" style={{paddingTop: "97px", backgroundColor: "#E6E1DE"}}>
+                <div className="homepage-header-container">
+                    <div className="header-text-container products-header">
+                        <img src={vector} alt="" className="vector" />
+                        <div className="header-text">Khách hàng</div>
+                    </div>
+                    <div className="subHeader-text"
+                         style={{
+                             textAlign: "center",
+                             marginTop: "20px",
+                             fontWeight: "400",
+                         }}
+                    >
+                        Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
+                        sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản
+                        phẩm được làm từ gỗ
+                    </div>
+                </div>
+                <div className="section4-content">
+                    <div className="partnership-top-wrapper">
+                        {partnership.map((item, key) => {
+                            if (item.position === 0) {
+                                return (
+                                    <div className="partnership-top">
+                                        <img src={item.image} alt=""/>
+                                    </div>
+                                )
+                            }
+                            return null
+                        })}
+                    </div>
+                    <div className="partnership-bottom-wrapper">
+                        {partnership.map((item, key) => {
+                            if (item.position === 1) {
+                                return (
+                                    <div className="partnership-bottom">
+                                        <img src={item.image} alt=""/>
+                                    </div>
+                                )
+                            }
+                        })}
+                    </div>
+                </div>
+            </div>
+
+            {/*Section5*/}
             <div
-                className="section-4"
+                className="section-5"
                 style={{
                     paddingTop: "97px",
                     backgroundColor: "#E6E1DE",
@@ -109,7 +168,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div
-                    className="section4-content"
+                    className="section5-content"
                     style={{
                         display: "flex",
                         flexDirection: "row",
@@ -184,7 +243,6 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <Products></Products>
             <AboutUs></AboutUs>
         </div>
     );
