@@ -40,8 +40,8 @@ const Header = (props) => {
             <div>
                 <ul className="header-pages">
                     <li onClick={() => moveTo("/")}>Trang chủ</li>
-                    <li onClick={() => moveTo("/product")}>Sản phẩm</li>
-                    <li onClick={() => moveTo("/project")}>Dự án</li>
+                    <li onClick={() => moveTo("/products")}>Sản phẩm</li>
+                    <li onClick={() => moveTo("/projects")}>Dự án</li>
                     <li onClick={() => moveTo("/aboutus")}>Về chúng tôi</li>
                     <li onClick={() => moveTo("/contact")}>Liên hệ</li>
                 </ul>

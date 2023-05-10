@@ -70,7 +70,7 @@ const Footer = (props) => {
                             type="checkbox"
                             onChange={() => setChecked(!isBoxChecked)}
                         ></input>
-                        <span class="agreetext" style={{fontSize:"14px", width:"25rem"}}>
+                        <span className="agreetext" style={{fontSize:"14px", width:"25rem"}}>
                             I've read the Privacy Policy and I consent to Halal
                             Interior sending me marketing communications
                         </span>
