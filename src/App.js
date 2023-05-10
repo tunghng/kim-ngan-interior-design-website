@@ -5,10 +5,10 @@ import Footer from "./components/Footer/Footer"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./Page/HomePage/HomePage";
 import Products from "./Page/Products/Products";
-import Projects from "./Page/Projects/Projects";
+import ProjectMenu from "./Page/Projects/ProjectMenu/ProjectMenu";
 import Contact from "./Page/Contact/Contact";
 import AboutUs from "./Page/AboutUs/AboutUs";
-
+import Project from "./Page/Projects/Project/Project";
 
 
 function App() {
@@ -19,8 +19,10 @@ function App() {
               <Router>
                   <Switch>
                       <Route path="/" exact component={HomePage} />
-                      <Route path="/project" exact component={Projects} />
-                      <Route path="/product" exact component={Products} />
+                      <Route path="/projects" exact component={ProjectMenu} />
+                      <Route path="/projects/:id" exact component={Project} />
+                      <Route path="/products" exact component={Products} />
+                      <Route path="/products/:id" exact component={Products} />
                       <Route path="/contact" exact component={Contact} />
                       <Route path="/aboutus" exact component={AboutUs} />
                   </Switch>
