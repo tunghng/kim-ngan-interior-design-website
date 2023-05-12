@@ -9,6 +9,7 @@ import ProjectMenu from "./Page/Projects/ProjectMenu/ProjectMenu";
 import Contact from "./Page/Contact/Contact";
 import AboutUs from "./Page/AboutUs/AboutUs";
 import Project from "./Page/Projects/Project/Project";
+import PhotoAlbum from "./Page/Projects/Gallery/PhotoAlbum";
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
                       <Route path="/" exact component={HomePage} />
                       <Route path="/projects" exact component={ProjectMenu} />
                       <Route path="/projects/:id" exact component={Project} />
+                      <Route path="/projects/gallery/:id" exact component={PhotoAlbum} />
                       <Route path="/products" exact component={Products} />
-                      <Route path="/products/:id" exact component={Products} />
+
                       <Route path="/contact" exact component={Contact} />
                       <Route path="/aboutus" exact component={AboutUs} />
                   </Switch>
