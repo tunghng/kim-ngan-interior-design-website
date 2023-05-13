@@ -82,9 +82,9 @@ const PhotoAlbum = () => {
       <div className="project-item" style={{ background: "#E6E1DE" }}>
         <div className="project-goBack">
           <span>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects" style={{textDecoration:"none", color:"black"}}>Projects</Link>
           </span>
-          <span>{`>`}</span> <span>{blog.title}</span>
+          <span>{` > `}</span> <span>{blog.title}</span>
         </div>
 
         <div className="project-top">
@@ -95,7 +95,7 @@ const PhotoAlbum = () => {
         <div className="project-body">
           <div
             className="project-body1"
-            style={{ display: "flex", paddingTop: "3rem", gap: "6rem" }}
+            style={{ display: "flex", paddingTop: "3rem", gap: "6rem", justifyContent:"space-between" }}
           >
             <div className="project-body1-left" style={{ width: "70%" }}>
               <div
@@ -120,7 +120,7 @@ const PhotoAlbum = () => {
       </div>
 
       
-      <div style={{ paddingLeft: '8%', paddingRight: '8%', background: "#E6E1DE", paddingBottom: "3rem", }}>
+      <div style={{ paddingLeft: '8%', paddingRight: '8%', background: "#E6E1DE", paddingBottom: "3rem"}}>
         <Gallery images={blog.imgs} id="images"/>
       </div>
     </div>

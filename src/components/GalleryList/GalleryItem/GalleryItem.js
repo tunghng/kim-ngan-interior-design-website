@@ -5,10 +5,11 @@ import "./GalleryItem.css";
 const GalleryItem = ({ blog: { cover, title, id } }) => {
   return (
     <>
-      <Link to={`/projects/gallery/${id}`}>
+      <Link to={`/projects/gallery/${id}`} style={{textDecoration:"none"}}>
         <div
           style={{
             backgroundImage: `url(${cover})`,
+            backgroundSize:"cover",
             width: "100%",
             height: "20rem",
             backgroundRepeat: "no-repeat",

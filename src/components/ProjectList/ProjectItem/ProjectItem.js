@@ -5,10 +5,11 @@ import "./ProjectItem.css";
 const ProjectItem = ({ blog: { cover, title, id } }) => {
   return (
     <>
-      <Link to={`/projects/${id}`}>
+      <Link to={`/projects/${id}`} style={{textDecoration:"none"}}>
         <div
           style={{
             backgroundImage: `url(${cover})`,
+            backgroundSize:"cover",
             width: "100%",
             height: "20rem",
             backgroundRepeat: "no-repeat",

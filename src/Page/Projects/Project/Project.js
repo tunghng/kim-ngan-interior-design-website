@@ -26,9 +26,9 @@ const Project = () => {
       <div className="project-item" style={{ background: "#E6E1DE" }}>
         <div className="project-goBack">
           <span>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects" style={{textDecoration:"none", color:"black"}}>Projects</Link>
           </span>
-          <span>{`>`}</span> <span>{blog.title}</span>
+          <span>{` > `}</span> <span>{blog.title}</span>
         </div>
 
         <div className="project-top">
@@ -39,7 +39,7 @@ const Project = () => {
         <div className="project-body">
           <div
             className="project-body1"
-            style={{ display: "flex", paddingTop: "3rem", gap: "6rem" }}
+            style={{ display: "flex", paddingTop: "3rem", gap: "6rem", justifyContent:"space-between" }}
           >
             <div className="project-body1-left" style={{ width: "70%" }}>
               <div
@@ -57,7 +57,7 @@ const Project = () => {
             <img
               src={logo}
               className="project-body1-right"
-              style={{ display: "flex" }}
+              style={{ display: "flex"}}
             ></img>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Project = () => {
           paddingLeft: "8%",
           paddingRight: "8%",
           background:
-            "linear-gradient(0deg, #272523 1.37%, #272523 70.21%, #E6E1DE 100%)",
+            "linear-gradient(0deg, #272523 1.37%, #272523 70.21%, #E6E1DE 100%)"
         }}
       >
         <img
@@ -96,7 +96,7 @@ const Project = () => {
             <img
               src={blog.bannerImg}
               alt=""
-              style={{ width: "100%", paddingTop: "4rem" }}
+              style={{ width: "100%", paddingTop: "4rem", marginBottom:"30px"}}
             />
           </div>
         </div>
