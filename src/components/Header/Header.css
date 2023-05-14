@@ -69,4 +69,42 @@
 
 li {
     cursor: pointer;
+    line-height: 20px;
+}
+
+.aboutUs-pop-up {
+    display: none;
+    width: 173px;
+    gap:10px;
+    border-radius: 12px;
+}
+
+.aboutUs-pop-up div {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #8B7F6E;
+    font-weight: 500;
+}
+
+.aboutUs-button:hover .aboutUs-pop-up{
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.aboutUs-pop-up div:hover {
+    background-color: grey;
+    color: black;
+}
+
+.aboutUs-pop-up .up:hover {
+    border-radius: 12px 12px 0 0;
+}
+
+.aboutUs-pop-up .down:hover {
+    border-radius: 0 0 12px 12px;
 }
