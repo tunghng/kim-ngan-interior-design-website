@@ -2,26 +2,14 @@ import React from "react";
 
 import "./Header.css";
 
-import { useState } from "react";
-
 import { moveTo } from "../../utils/HelperFunction";
 
 import brand_logo from "../../assets/navbar/brand_logo.png";
 
-const Header = (props) => {
-    const [header, setHeader] = useState(false);
-
-    const changeBackground = () => {
-        if (window.scrollY >= 735) {
-            setHeader(true);
-        } else {
-            setHeader(false);
-        }
-    }
-
-    window.addEventListener('scroll', changeBackground);
+const Header = ({headerStatus, headerColor, background}) => {
     return (
-        <div className={header ? 'header-container-active' : 'header-container'}>
+        <div className={headerStatus ? 'header-container-active' : 'header-container'}
+             style={{color:`${headerColor}`, borderBottom:`1px solid ${headerColor}`, background:`${background}`}}>
             <div className="header-logo">
                 <div className="left" onClick={() => moveTo("/")}>
                     <div className="wrapper">
@@ -44,7 +32,7 @@ const Header = (props) => {
                         <div className="aboutUs-title">Về chúng tôi</div>
                         <div className="aboutUs-pop-up">
                             <div className="up" onClick={() => moveTo("/aboutus")}>Nhân sự</div>
-                            <div className="down" onClick={() => moveTo("/aboutus")}>Clients</div>
+                            <div className="down" onClick={() => moveTo("/aboutus/clients")}>Clients</div>
                         </div>
                     </li>
                     <li onClick={() => moveTo("/contact")}>Liên hệ</li>

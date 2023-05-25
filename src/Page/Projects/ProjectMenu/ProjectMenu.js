@@ -4,14 +4,16 @@ import ProjectList from "../../../components/ProjectList/ProjectList";
 import GalleryList from "../../../components/GalleryList/GalleryList";
 import { projectData } from "../../../config/projectData";
 import { galleryData } from "../../../config/galleryData";
-import { useState } from "react";
+import React, { useState } from "react";
+import Header from "../../../components/Header/Header";
 
 export default function ProjectMenu() {
-  const [project, setProject] = useState(projectData);
-  const [gallery, setGallery] = useState(galleryData);
+  const [project] = useState(projectData);
+  const [gallery] = useState(galleryData);
 
   return (
     <div className="project">
+        <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
       <div className="menu-header">
         <div className="menu-top">
           <img src={vector} alt="" />

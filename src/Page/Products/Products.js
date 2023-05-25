@@ -9,10 +9,23 @@ import other1 from "../../assets/productPage/other_product1.png";
 import other2 from "../../assets/productPage/other_product2.png";
 
 import Button from "../../components/Button/Button";
+import Header from "../../components/Header/Header";
+import React, {useState} from "react";
 
 export default function Products() {
+    const [header, setHeader] = useState(false);
+    const changeBackground = () => {
+        if (window.scrollY >= 735) {
+            setHeader(true);
+        } else {
+            setHeader(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
   return (
     <div>
+        <Header headerStatus={header}/>
       <div className="banner">
         <div className="banner-header">
           <div className="header-top">

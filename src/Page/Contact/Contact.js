@@ -8,6 +8,7 @@ import location from "../../assets/icon/location.svg";
 
 import Form from "react-bootstrap/Form";
 import {FormGroup} from "react-bootstrap";
+import Header from "../../components/Header/Header";
 
 export default function Contact() {
     const input = [
@@ -30,6 +31,7 @@ export default function Contact() {
     ]
     return (
         <div className="contact-container">
+            <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
             <div className="homepage-header-container">
                 <div className="header-text-container products-header" style={{width:"100%"}}>
                     <img src={vector} alt="" className="vector" />

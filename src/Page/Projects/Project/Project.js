@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import vector from "../../../assets/aboutUs/Vector.png";
 
 import { Gallery } from "react-grid-gallery";
+import Header from "../../../components/Header/Header";
 
 
 const Project = () => {
@@ -23,6 +24,7 @@ const Project = () => {
 
   return (
     <div>
+        <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
       <div className="project-item" style={{ background: "#E6E1DE" }}>
         <div className="project-goBack">
           <span>
@@ -57,7 +59,7 @@ const Project = () => {
             <img
               src={logo}
               className="project-body1-right"
-              style={{ display: "flex"}}
+              style={{ display: "flex"}} alt=""
             ></img>
           </div>
         </div>

@@ -19,8 +19,21 @@ import { moveTo } from "../../utils/HelperFunction";
 import vector from "../../assets/aboutUs/Vector.png";
 
 import section2_img from "../../assets/HomePage/section2_img.png";
+import Header from "../../components/Header/Header";
 
 export default function HomePage() {
+    const [header, setHeader] = useState(false);
+    const changeBackground = () => {
+        if (window.scrollY >= 735) {
+            setHeader(true);
+        } else {
+            setHeader(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
+
     const partnership = [
         {name: "British Council", image: require("../../assets/HomePage/BritishCouncil.png"), position: 0},
         {name: "Ignou", image: require("../../assets/HomePage/Ignoupng.png"), position: 0},
@@ -29,10 +42,9 @@ export default function HomePage() {
         {name: "British Council", image: require("../../assets/HomePage/BritishCouncil.png"), position: 1}
     ]
 
-    const [imagePosition, setImagePosition] = useState(partnership[2])
-
     return (
         <div className="w-100">
+            <Header headerStatus={header}/>
             {/*banner*/}
             <div id="banner">
                 <div
@@ -129,6 +141,7 @@ export default function HomePage() {
                                     </div>
                                 )
                             }
+                            return null
                         })}
                     </div>
                 </div>
@@ -204,7 +217,7 @@ export default function HomePage() {
                                     color: "#ffffff",
                                 }}
                                 content="Khám phá"
-                                handleClick={() => moveTo("/product")}
+                                handleClick={() => moveTo("/products")}
                             />
                         </div>
                     </div>
@@ -219,6 +232,7 @@ export default function HomePage() {
                     >
                         <div
                             style={{
+                                width:"100%",
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
