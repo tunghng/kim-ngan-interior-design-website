@@ -9,6 +9,7 @@ import Contact from "./Page/Contact/Contact";
 import Clients from "./Page/AboutUs/Clients/Clients";
 import Project from "./Page/Projects/Project/Project";
 import PhotoAlbum from "./Page/Projects/Gallery/PhotoAlbum";
+import HumanResources from "./Page/AboutUs/Human Resources/HumanResources";
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
                       <Route path="/products" exact component={Products} />
 
                       <Route path="/contact" exact component={Contact} />
-
+                      <Route path="/aboutus/hr" exact component={HumanResources} />
                       <Route path="/aboutus/clients" exact component={Clients} />
                   </Switch>
               </Router>
