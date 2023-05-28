@@ -39,7 +39,7 @@ const Footer = (props) => {
                             color: "#ffffff",
                         }}
                         content="Khám phá tất cả sản phẩm"
-                        handleClick={() => moveTo("/")}
+                        handleClick={() => moveTo("/products")}
                     ></Button>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const Footer = (props) => {
                                 justifyContent:"flex-start"
                             }}
                             content="Enter your email"
-                            handleClick={() => moveTo("/")}
+                            handleClick={() => moveTo("/contact")}
                         ></Button>
                     </div>
 
@@ -80,11 +80,11 @@ const Footer = (props) => {
                 <div className="bottom-right">
                     <div>
                         <ul className="right-pages">
-                            <li>Product</li>
-                            <li>Services</li>
+                            <li onClick={() => moveTo("/products")}>Product</li>
+                            <li onClick={() => moveTo("/projects")}>Services</li>
                             <li>Article</li>
-                            <li>About Us</li>
-                            <li>Contact</li>
+                            <li onClick={() => moveTo("/aboutus/hr")}>About Us</li>
+                            <li onClick={() => moveTo("/contact")}>Contact</li>
                         </ul>
                     </div>
                     <div>
