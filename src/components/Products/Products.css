@@ -58,7 +58,7 @@
 
 .product-bottom{
     border-top: 1px solid #A89C93;
-    width: 70rem;
+    /* width: 70rem; */
 
     display: flex;
     justify-content: center;
