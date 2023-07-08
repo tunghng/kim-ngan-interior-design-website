@@ -120,14 +120,14 @@
     gap: 20px;
 }
 
-.section4-content .partnership-top-wrapper {
+.section4-content .clients-top-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.section4-content .partnership-top {
+.section4-content .clients-top {
     width: 464px;
     height: 140px;
     border: 1px solid;
@@ -137,14 +137,14 @@
     align-items: center;
 }
 
-.section4-content .partnership-bottom-wrapper {
+.section4-content .clients-bottom-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.section4-content .partnership-bottom {
+.section4-content .clients-bottom {
     width: 464px;
     height: 140px;
     border: 1px solid;
@@ -155,7 +155,8 @@
 }
 
 .section4-content img {
-    height: 100px;
+    width: 80%;
+    height: auto;
 }
 
 .section5-content .left-row {

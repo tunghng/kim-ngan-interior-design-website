@@ -33,33 +33,12 @@ export default function HomePage() {
 
   window.addEventListener("scroll", changeBackground);
 
-  const partnership = [
-    {
-      name: "British Council",
-      image: require("../../assets/HomePage/BritishCouncil.png"),
-      position: 0,
-    },
-    {
-      name: "Ignou",
-      image: require("../../assets/HomePage/Ignoupng.png"),
-      position: 0,
-    },
-    {
-      name: "Goethe Institut",
-      image: require("../../assets/HomePage/GoetheInstitut.png"),
-      position: 0,
-    },
-    {
-      name: "JapanFoundation",
-      image: require("../../assets/HomePage/JapanFoundation.png"),
-      position: 1,
-    },
-    {
-      name: "British Council",
-      image: require("../../assets/HomePage/BritishCouncil.png"),
-      position: 1,
-    },
-  ];
+  const clients = [
+    {name: "Công ty CPTM Aica HPL", image: require("../../assets/HomePage/aicaHPL.png"), position: 0},
+    {name: "Công ty CP gỗ An Cường", image: require("../../assets/HomePage/anCuong.png"), position: 0},
+    {name: "Công ty TNHH Navado Việt Nam", image: require("../../assets/HomePage/navado.png"), position: 1},
+    {name: "Công ty Excellence Mar", image: require("../../assets/HomePage/quamar.png"), position: 1},
+  ]
 
   return (
     <div className="w-100">
@@ -179,11 +158,11 @@ export default function HomePage() {
           </div>
         </div>
         <div className="section4-content">
-          <div className="partnership-top-wrapper">
-            {partnership.map((item, key) => {
+          <div className="clients-top-wrapper">
+            {clients.map((item, key) => {
               if (item.position === 0) {
                 return (
-                  <div className="partnership-top">
+                  <div className="clients-top">
                     <img src={item.image} alt="" />
                   </div>
                 );
@@ -191,11 +170,11 @@ export default function HomePage() {
               return null;
             })}
           </div>
-          <div className="partnership-bottom-wrapper">
-            {partnership.map((item, key) => {
+          <div className="clients-bottom-wrapper">
+            {clients.map((item, key) => {
               if (item.position === 1) {
                 return (
-                  <div className="partnership-bottom">
+                  <div className="clients-bottom">
                     <img src={item.image} alt="" />
                   </div>
                 );

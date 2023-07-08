@@ -2,26 +2,24 @@ export const hotelData = [
   {
     id: 1,
     title: "Khách sạn Toàn Thắng Stone",
-    cover: "/projectAssets/project1.png",
+    cover: "/projectAssets/kstoanthang11.png",
     planningMap: "/projectAssets/planningMap1.png",
     bannerImg: "/projectAssets/img1.png",
     description:
       "Tôn vinh trải nghiệm tiện nghi và phong cách sang trọng là ý tưởng thiết kế đội ngũ Kim Ngân dành cho dự án khách sạn Toàn Thắng Stone. Sự hiện đại sang trọng được lồng ghép khéo léo qua cách bài trí, sử dụng màu sắc và chất liệu. Các không gian có sự đồng bộ và chuyển tiếp hài hoà với nhau, mang đậm dấu ấn riêng của chủ đầu tư và để lại ấn tượng sâu sắc cho những người ghé thăm công trình.",
     imgs: [
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        original:
-          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        width: 320,
-        height: 212,
-        caption: "Boats (Jeshu John - designerspics.com)",
+        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg"
       },
+      {
+
+      }
     ],
   },
   {
     id: 2,
     title: "Khách sạn Hải Âu Thiên Cầm",
-    cover: "/projectAssets/project2.png",
+    cover: "/projectAssets/kshaiau1.png",
     planningMap: "/projectAssets/planningMap1.png",
     bannerImg: "/projectAssets/img1.png",
     description:
@@ -41,7 +39,7 @@ export const hotelData = [
   {
     id: 3,
     title: "Khách sạn Cửa Đông Luxury",
-    cover: "/projectAssets/project3.png",
+    cover: "/projectAssets/kscuadong1.png",
     planningMap: "/projectAssets/planningMap1.png",
     bannerImg: "/projectAssets/img1.png",
     description:
@@ -87,7 +85,7 @@ export const hotelData = [
   },
   {
     id: 5,
-    title: "Khách sạn Ngọc Long Châu",
+    title: "Khách sạn Sơn Nam",
     cover: "/projectAssets/project2.png",
     planningMap: "/projectAssets/planningMap1.png",
     bannerImg: "/projectAssets/img1.png",
