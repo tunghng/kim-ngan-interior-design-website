@@ -16,14 +16,20 @@ const ProjectItem = ({ blog: { cover, title, id } }) => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            fontFamily: "Montserrat",
-            fontWeight: "700",
-            fontSize: "2rem",
             lineHeight: "48px",
             color: "#fff",
           }}
         >
-          {title}
+          <h1
+            style={{
+              width:"80%",
+              fontFamily: "Montserrat",
+              fontWeight: "600",
+              fontSize: "28px"
+          }}
+          >
+            {title}
+          </h1>
         </div>
       </Link>
     </>

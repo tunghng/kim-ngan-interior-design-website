@@ -2,40 +2,45 @@ import "./ProjectMenu.css";
 import vector from "../../../assets/aboutUs/Vector.png";
 import ProjectList from "../../../components/ProjectList/ProjectList";
 import GalleryList from "../../../components/GalleryList/GalleryList";
-import { projectData } from "../../../config/projectData";
-import { galleryData } from "../../../config/galleryData";
+import { hotelData } from "../../../config/hotelData";
+import { villaData } from "../../../config/villaData";
+import { officeData } from "../../../config/officeData";
 import React, { useState } from "react";
 import Header from "../../../components/Header/Header";
 
 export default function ProjectMenu() {
-  const [project] = useState(projectData);
-  const [gallery] = useState(galleryData);
+  const [hotel] = useState(hotelData);
+  const [villa] = useState(villaData);
+  const [office] = useState(officeData);
 
   return (
     <div className="project">
-        <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
+      <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
       <div className="menu-header">
         <div className="menu-top">
           <img src={vector} alt="" />
-          <div>Sản phẩm gỗ thật</div>
+          <div>Khách sạn</div>
         </div>
+      </div>
+      <ProjectList blogs={hotel} />
 
-        <div className="menu-bot">
-          Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm
-          từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
+      <div className="menu-header">
+        <div className="menu-top">
+          <img src={vector} alt="" />
+          <div>Biệt thự</div>
         </div>
       </div>
 
-      <ProjectList blogs={project} />
+      <ProjectList blogs={villa} />
 
       <div className="menu-header" style={{ width: "40%" }}>
         <div className="menu-top">
           <img src={vector} alt="" />
-          <div>Phong Cách</div>
+          <div>Văn Phòng</div>
         </div>
       </div>
 
-      <GalleryList blogs={gallery} />
+      <ProjectList blogs={office} />
     </div>
   );
 }

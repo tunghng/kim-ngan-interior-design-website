@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { projectData } from "../../../config/projectData";
+import { hotelData } from "../../../config/hotelData";
 import logo from "../../../assets/project/logo.png";
 
 import "./Project.css";
@@ -16,7 +16,7 @@ const Project = () => {
   const [blog, setBlog] = useState(<div>hello</div>);
 
   useEffect(() => {
-    let blog = projectData.find((blog) => blog.id === parseInt(id));
+    let blog = hotelData.find((blog) => blog.id === parseInt(id));
     if (blog) {
       setBlog(blog);
     }

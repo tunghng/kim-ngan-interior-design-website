@@ -14,7 +14,7 @@ const AboutUs = (props) => {
     <div className="aboutUs-container">
       <div className="header-text-container">
         <img src={vector} alt="" className="vector" />
-        <div className="header-text">About Us</div>
+        <div className="header-text">Về chúng tôi</div>
       </div>
 
       <div className="header-subtext">

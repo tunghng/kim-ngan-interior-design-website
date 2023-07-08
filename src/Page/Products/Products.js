@@ -7,6 +7,11 @@ import img3 from "../../assets/productPage/dummy3.png";
 import long_img from "../../assets/productPage/wide_dummy.png";
 import other1 from "../../assets/productPage/other_product1.png";
 import other2 from "../../assets/productPage/other_product2.png";
+import xuong_go_1 from "../../assets/productPage/xuong_go_1.png";
+import xuong_go_2 from "../../assets/productPage/xuong_go_2.png";
+import xuong_go_3 from "../../assets/productPage/xuong_go_3.jpeg";
+import xuong_go_4 from "../../assets/productPage/xuong_go_4.jpeg";
+import xuong_go_5 from "../../assets/productPage/xuong_go_5.jpeg";
 
 import Button from "../../components/Button/Button";
 import Header from "../../components/Header/Header";
@@ -14,6 +19,31 @@ import React, {useState} from "react";
 
 export default function Products() {
     const [header, setHeader] = useState(false);
+
+    const banner = [
+        {
+            text: "Nội thất Kim Ngân luôn tự hào và đảm bảo về sản phẩm chất lượng đồ gỗ nhờ có hai xưởng sản xuất với năng lực vượt trội. 2 cơ sở xưởng đáp ứng mọi tiêu chuẩn và yêu cầu cao về quy mô, nhân lực, máy móc, chất lượng sản phẩm, tiến độ và giá thành. Các công trình hoàn thiện là minh chứng rõ nhất cho sự nỗ lực và học hỏi không ngừng của Kim Ngân."
+        },
+        {
+            text: "Đối với chúng tôi, nội thất không chỉ là những tấm gỗ thông thường mà chúng mang tinh thần và tâm huyết của đội ngũ làm ra. Mỗi sản phẩm đều cần được hoàn thiện chỉnh chu và tỉ mỉ đến từng chi tiết nhỏ. Với tổng diện tích 3.700m2 được vận hành bởi trên 80 công nhân lành nghề, là thợ bậc 3 trở lên và quản lý nhà xưởng có trình độ Đại học, công nhân bậc cao, đảm bảo đáp ứng được cả những sản phẩm có thiết kế cầu kỳ và phức tạp nhất."
+        },
+    ];
+
+    const subSection = [
+        {
+            text: "Bên cạnh đó, Kim Ngân luôn chú trọng vào hệ thống dây chuyền công nghệ sản xuất để tối ưu chất lượng và tiến độ. Trang thiết bị hiện đại bao gồm máy cắt CNC, máy dán cạnh tự động, lò sấy sóng cao tần, máy khoan giàn… liên tục được bảo trì và cập nhật. Xưởng có thể sản xuất đồ gỗ tự nhiên và gỗ công nghiệp quy mô lớn, đảm bảo tiến độ  bàn giao và chất lượng sản phẩm cho các công trình thi công."
+        },
+        {
+            text: "Đặc biệt, với hơn 20 năm trong ngành, Kim Ngân đã trở thành đối tác lâu dài của các nhà phân phối độc quyền vật tư nội thất. Nhờ có được mức giá ưu đãi của các đối tác mà chúng tôi có lợi thế cạnh tranh về giá cả và chất lượng."
+        },
+        {
+            text: "Sự đa dạng trong các loại gỗ là một điều tự hào của nội thất Kim Ngân. Chúng tôi có nguồn nguyên liệu đầy đủ các loại gỗ tự nhiên đến gỗ công nghiệp, phù hợp với mọi yêu cầu khắt khe của các công trình cao cấp, đảm bảo sự tương đồng và thống nhất cho dự án."
+        },
+        {
+            text: "Sau khi bàn giao, quý khách hàng sẽ nhận được sự chăm sóc và bảo hành chu đáo bởi đối với Kim Ngân, chất lượng chính là yếu tố giữ chân khách hàng và giá trị cốt lõi cần phải giữ gìn."
+        }
+    ]
+
     const changeBackground = () => {
         if (window.scrollY >= 735) {
             setHeader(true);
@@ -34,8 +64,6 @@ export default function Products() {
           </div>
 
           <div className="header-bot">
-            Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được
-            làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
           </div>
         </div>
 
@@ -47,35 +75,22 @@ export default function Products() {
                 marginBottom: "1rem",
               }}
             >
-              Project Overview
+                Xưởng gỗ Kim Ngân
             </div>
-            <div
-              style={{
-                fontWeight: "400",
-                fontSize: "1rem",
-                lineHeight: "24px",
-                marginBottom: "1rem",
-              }}
-            >
-              Online learning with us does not interfere with your daily life.
-              because learning can be done anytime and anywhere. Online learning
-              with us does not interfere with your daily life. because learning
-              can be done anytime and anywhere. Online learning with us does not
-              interfere with your daily life. because learning can be done
-              anytime and anywhere.{" "}
-            </div>
-            <div
-              style={{
-                fontWeight: "400",
-                fontSize: "1rem",
-                lineHeight: "24px",
-              }}
-            >
-              Online learning with us does not interfere with your daily life.
-              because learning can be done anytime and anywhere. Online learning
-              with us does not interfere with your daily life. because learning
-              can be done anytime and anywhere.
-            </div>
+              {banner.map((item, index) => {
+                return (
+                  <div
+                    style={{
+                        fontWeight: "400",
+                        fontSize: "1rem",
+                        lineHeight: "24px",
+                        marginBottom: "1rem",
+                    }}
+                  >
+                    {item.text}
+                  </div>
+                )
+              })}
           </div>
           <div className="bot-right"></div>
         </div>
@@ -93,58 +108,20 @@ export default function Products() {
         </div>
 
         <div className="description-right">
-          <div
-            style={{
-              fontWeight: "700",
-              marginBottom: "1rem",
-              color: "background: #3D290D",
-              fontSize: "1.5rem",
-            }}
-          >
-            Project Overview
-          </div>
-
-          <div
-            style={{
-              fontWeight: "400",
-              fontSize: "1rem",
-              lineHeight: "24px",
-              marginBottom: "1rem",
-              color: "background: #3D290D",
-            }}
-          >
-            Online learning with us does not interfere with your daily life.
-            because learning can be done anytime and anywhere. Online learning
-            with us does not interfere with your daily life. because learning
-            can be done anytime and anywhere.{" "}
-          </div>
-          <div
-            style={{
-              fontWeight: "400",
-              fontSize: "1rem",
-              lineHeight: "24px",
-              marginBottom: "1rem",
-              color: "background: #3D290D",
-            }}
-          >
-            Online learning with us does not interfere with your daily life.
-            because learning can be done anytime and anywhere. Online learning
-            with us does not interfere with your daily life. because learning
-            can be done anytime and anywhere.{" "}
-          </div>
-          <div
-            style={{
-              fontWeight: "400",
-              fontSize: "1rem",
-              lineHeight: "24px",
-              color: "background: #3D290D",
-            }}
-          >
-            Online learning with us does not interfere with your daily life.
-            because learning can be done anytime and anywhere. Online learning
-            with us does not interfere with your daily life. because learning
-            can be done anytime and anywhere.
-          </div>
+          {subSection.map((item, index) => {
+            return (
+              <div
+                style={{
+                  fontWeight: "400",
+                  fontSize: "1rem",
+                  lineHeight: "24px",
+                  marginBottom: "1rem",
+                }}
+              >
+                {item.text}
+              </div>
+            )
+          })}
         </div>
       </div>
 
@@ -183,24 +160,26 @@ export default function Products() {
         <div className="pics">
           <div className="first-line">
             <img
-              src={img1}
+              src={xuong_go_2}
               alt=""
               style={{
                 width: "49%",
+                height:"auto",
+                objectFit:"cover"
               }}
             />
             <img
-              src={img2}
+              src={xuong_go_3}
               alt=""
               style={{
-                width: "49%",
+                width: "49%"
               }}
             />
           </div>
 
           <div className="second-line">
             <img
-              src={long_img}
+              src={xuong_go_1}
               alt=""
               style={{
                 width: "100%",
@@ -212,14 +191,14 @@ export default function Products() {
 
           <div className="third-line">
             <img
-              src={img3}
+              src={xuong_go_4}
               alt=""
               style={{
                 width: "49%",
               }}
             />
             <img
-              src={img2}
+              src={xuong_go_5}
               alt=""
               style={{
                 width: "49%",

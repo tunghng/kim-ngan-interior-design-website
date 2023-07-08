@@ -61,6 +61,8 @@
     justify-content: center;
     padding-left: 8%;
     padding-right: 8%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     height: 30rem;
     background: #E6E1DE;
 
@@ -71,7 +73,7 @@
 }
 
 .description-right {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .album {

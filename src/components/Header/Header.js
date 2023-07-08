@@ -32,7 +32,7 @@ const Header = ({headerStatus, headerColor, background}) => {
                         <div className="aboutUs-title">Về chúng tôi</div>
                         <div className="aboutUs-pop-up">
                             <div className="up" onClick={() => moveTo("/aboutus/hr")}>Nhân sự</div>
-                            <div className="down" onClick={() => moveTo("/aboutus/clients")}>Clients</div>
+                            <div className="down" onClick={() => moveTo("/aboutus/clients")}>Khách hàng</div>
                         </div>
                     </li>
                     <li onClick={() => moveTo("/contact")}>Liên hệ</li>
