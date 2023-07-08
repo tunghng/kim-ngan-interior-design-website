@@ -10,7 +10,6 @@ import vector from "../../../assets/aboutUs/Vector.png";
 import { Gallery } from "react-grid-gallery";
 import Header from "../../../components/Header/Header";
 
-
 const Project = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState(<div>hello</div>);
@@ -59,7 +58,7 @@ const Project = () => {
             <img
               src={logo}
               className="project-body1-right"
-              style={{ display: "flex"}} alt=""
+              style={{ width:"auto", height:"30%" }} alt=""
             ></img>
           </div>
         </div>

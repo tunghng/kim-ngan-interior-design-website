@@ -2,18 +2,45 @@ export const hotelData = [
   {
     id: 1,
     title: "Khách sạn Toàn Thắng Stone",
-    cover: "/projectAssets/kstoanthang11.png",
+    cover: "/projectAssets/kstoanthang2.png",
     planningMap: "/projectAssets/planningMap1.png",
     bannerImg: "/projectAssets/img1.png",
     description:
       "Tôn vinh trải nghiệm tiện nghi và phong cách sang trọng là ý tưởng thiết kế đội ngũ Kim Ngân dành cho dự án khách sạn Toàn Thắng Stone. Sự hiện đại sang trọng được lồng ghép khéo léo qua cách bài trí, sử dụng màu sắc và chất liệu. Các không gian có sự đồng bộ và chuyển tiếp hài hoà với nhau, mang đậm dấu ấn riêng của chủ đầu tư và để lại ấn tượng sâu sắc cho những người ghé thăm công trình.",
     imgs: [
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg"
+        src: "/projectAssets/kstoanthang2.png"
       },
       {
-
-      }
+        src: "/projectAssets/kstoanthang3.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang4.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang5.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang6.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang7.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang8.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang9.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang10.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang11.png"
+      },
+      {
+        src: "/projectAssets/kstoanthang12.png"
+      },
     ],
   },
   {
@@ -27,12 +54,25 @@ export const hotelData = [
       "Các vật liệu truyền thống như mây đan, gỗ tự nhiên được sử dụng một cách giản lược và không rườm rà, tạo cảm giác nhẹ nhàng đồng thời nói lên gu thẩm mỹ tinh tế, sang trọng. Sự đặc biệt của công trình đến từ những chi tiết nhỏ nhất, từ cách chọn đường vân, hoạ tiết đến bài trí ánh sáng, sắp xếp vật dụng trang trí. Tất cả góp phần tạo nên không gian mang đậm nét hoài cổ truyền thống nhưng không kém phần sang trọng, lịch thiệp và đẳng cấp.",
     imgs: [
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        original:
-          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        width: 320,
-        height: 212,
-        caption: "Boats (Jeshu John - designerspics.com)",
+        src: "/projectAssets/kshaiau1.png"
+      },
+      {
+        src: "/projectAssets/kshaiau2.png"
+      },
+      {
+        src: "/projectAssets/kshaiau3.png"
+      },
+      {
+        src: "/projectAssets/kshaiau4.png"
+      },
+      {
+        src: "/projectAssets/kshaiau5.png"
+      },
+      {
+        src: "/projectAssets/kshaiau6.png"
+      },
+      {
+        src: "/projectAssets/kshaiau7.png"
       },
     ],
   },
@@ -52,12 +92,40 @@ export const hotelData = [
       "Để không gian có thêm sự mát mẻ và sống động, không thể thiếu hệ thống cây xanh và tiểu cảnh được bố trí trong mỗi phòng và khu vực sân vườn. Tất cả các yếu tố đều góp phần tạo nên thành công của dự án, khiến Cửa Đông Luxury trở thành một trong những địa điểm nghỉ dưỡng hàng đầu trong khu vực.",
     imgs: [
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        original:
-          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        width: 320,
-        height: 212,
-        caption: "Boats (Jeshu John - designerspics.com)",
+        src: "/projectAssets/kscuadong1.png"
+      },
+      {
+        src: "/projectAssets/kscuadong2.png"
+      },
+      {
+        src: "/projectAssets/kscuadong3.png"
+      },
+      {
+        src: "/projectAssets/kscuadong4.png"
+      },
+      {
+        src: "/projectAssets/kscuadong5.png"
+      },
+      {
+        src: "/projectAssets/kscuadong6.png"
+      },
+      {
+        src: "/projectAssets/kscuadong7.png"
+      },
+      {
+        src: "/projectAssets/kscuadong8.png"
+      },
+      {
+        src: "/projectAssets/kscuadong9.png"
+      },
+      {
+        src: "/projectAssets/kscuadong10.png"
+      },
+      {
+        src: "/projectAssets/kscuadong11.png"
+      },
+      {
+        src: "/projectAssets/kscuadong12.png"
       },
     ],
   },
