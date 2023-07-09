@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { hotelData } from "../../../config/hotelData";
+import { villaData } from "../../../config/villaData";
+import { officeData } from "../../../config/officeData";
 import logo from "../../../assets/project/logo.png";
 
 import "./Project.css";
@@ -14,8 +16,9 @@ const Project = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState(<div>hello</div>);
 
+  const joinedList = hotelData.concat(villaData, officeData);
   useEffect(() => {
-    let blog = hotelData.find((blog) => blog.id === parseInt(id));
+    let blog = joinedList.find((blog) => blog.id === parseInt(id));
     if (blog) {
       setBlog(blog);
     }
@@ -53,7 +56,7 @@ const Project = () => {
                   paddingBottom: "2rem",
                 }}
               >{`A photo gallery of ${blog.title}`}</div>
-              <div>{blog.description}</div>
+              <div style={{whiteSpace:"pre-line"}}>{blog.description}</div>
             </div>
             <img
               src={logo}
@@ -80,20 +83,6 @@ const Project = () => {
 
         <div className="project-body">
           <div className="project-body1" style={{ paddingTop: "3rem" }}>
-            <div className="project-body1-left" style={{ width: "70%" }}>
-              <div
-                className=""
-                style={{
-                  fontWeight: "700",
-                  fontSize: "2rem",
-                  lineHeight: "64px",
-                  color: "#E6E1DE",
-                  paddingBottom: "2rem",
-                }}
-              >{`A photo gallery of ${blog.title}`}</div>
-              <div style={{ color: "#E6E1DE" }}>{blog.description}</div>
-            </div>
-
             <img
               src={blog.bannerImg}
               alt=""

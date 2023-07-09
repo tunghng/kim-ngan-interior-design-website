@@ -22,8 +22,7 @@ const Footer = (props) => {
                 <div className="left">
                     <img src={brand_logo} alt="" style={{width:"8rem"}}/>
                     <h5 style={{fontWeight:"700"}}>NỘI THẤT KIM NGÂN</h5>
-                    <p style={{width:"50%"}}>Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được
-                        làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
+                    <p style={{width:"50%"}}>
                     </p>
                 </div>
                 <div className="right">
@@ -80,11 +79,10 @@ const Footer = (props) => {
                 <div className="bottom-right">
                     <div>
                         <ul className="right-pages">
-                            <li onClick={() => moveTo("/products")}>Product</li>
-                            <li onClick={() => moveTo("/projects")}>Services</li>
-                            <li>Article</li>
-                            <li onClick={() => moveTo("/aboutus/hr")}>About Us</li>
-                            <li onClick={() => moveTo("/contact")}>Contact</li>
+                            <li onClick={() => moveTo("/products")}>Sản phẩm</li>
+                            <li onClick={() => moveTo("/projects")}>Dự án</li>
+                            <li onClick={() => moveTo("/aboutus/hr")}>Về chúng tôi</li>
+                            <li onClick={() => moveTo("/contact")}>Liên hệ</li>
                         </ul>
                     </div>
                     <div>
