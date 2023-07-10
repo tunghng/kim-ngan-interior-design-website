@@ -133,9 +133,9 @@ export const hotelData = [
   {
     id: 4,
     title: "Khách sạn Ngọc Long Châu",
-    cover: "/projectAssets/project2.png",
+    cover: "/projectAssets/ksngoclongchau1.png",
     planningMap: "",
-    bannerImg: "",
+    bannerImg: "/projectAssets/ksngoclongchau1.png",
     description:
       "Lấy cảm hứng từ chính tên gọi, công trình được thiết kế và xây dựng lên một cách nổi bật và sang trọng như một viên ngọc trắng muốt. Phong cách tân cổ điển được nhẹ nhàng hoá với tông trắng chủ đạo xuyên suốt, tạo cảm giác tinh tế và thanh lịch. \n" +
       "\n" +
@@ -146,21 +146,73 @@ export const hotelData = [
       "Với khu vực phòng nghỉ, thiết kế mang xu hướng hiện đại hơn, tối giản các chi tiết cầu kỳ giúp không gian rộng và thoáng. Mỗi phòng đều đầy đủ tiện nghi, đảm bảo tính công năng và thẩm mỹ.",
     imgs: [
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        original:
-          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        width: 320,
-        height: 212,
-        caption: "Boats (Jeshu John - designerspics.com)",
+        src: "/projectAssets/ksngoclongchau1.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau2.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau3.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau4.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau5.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau6.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau7.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau8.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau9.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau10.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau11.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau12.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau13.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau14.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau15.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau16.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau17.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau18.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau19.png"
+      },
+      {
+        src: "/projectAssets/ksngoclongchau20.png"
       },
     ],
   },
   {
     id: 5,
     title: "Khách sạn Sơn Nam",
-    cover: "/projectAssets/project2.png",
+    cover: "/projectAssets/kssonnam1.png",
     planningMap: "",
-    bannerImg: "",
+    bannerImg: "/projectAssets/kssonnam1.png",
     description:
       "Để đáp ứng được mong muốn của chủ đầu tư là công trình mang một nét hiện đại ấm áp, gần gũi, các kiến trúc sư đã sử dụng các đường nét tối giản cho không gian, tập trung vào các điểm nhấn. \n" +
       "\n" +
@@ -169,12 +221,40 @@ export const hotelData = [
       "Kim Ngân luôn mong muốn hiện thực hoá các ý tưởng của chủ đầu tư và góp phần giúp khách hàng có được kỳ nghỉ trọn vẹn nhất khi đến với công trình.",
     imgs: [
       {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        original:
-          "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        width: 320,
-        height: 212,
-        caption: "Boats (Jeshu John - designerspics.com)",
+        src: "/projectAssets/kssonnam1.png"
+      },
+      {
+        src: "/projectAssets/kssonnam2.png"
+      },
+      {
+        src: "/projectAssets/kssonnam3.png"
+      },
+      {
+        src: "/projectAssets/kssonnam4.png"
+      },
+      {
+        src: "/projectAssets/kssonnam5.png"
+      },
+      {
+        src: "/projectAssets/kssonnam6.png"
+      },
+      {
+        src: "/projectAssets/kssonnam7.png"
+      },
+      {
+        src: "/projectAssets/kssonnam8.png"
+      },
+      {
+        src: "/projectAssets/kssonnam9.png"
+      },
+      {
+        src: "/projectAssets/kssonnam10.png"
+      },
+      {
+        src: "/projectAssets/kssonnam11.png"
+      },
+      {
+        src: "/projectAssets/kssonnam12.png"
       },
     ],
   },

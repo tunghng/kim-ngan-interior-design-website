@@ -11,6 +11,7 @@ import vector from "../../../assets/aboutUs/Vector.png";
 
 import { Gallery } from "react-grid-gallery";
 import Header from "../../../components/Header/Header";
+import Lightbox from "yet-another-react-lightbox";
 
 const Project = () => {
   const { id } = useParams();
@@ -82,11 +83,11 @@ const Project = () => {
         />
 
         <div className="project-body">
-          <div className="project-body1" style={{ paddingTop: "3rem" }}>
+          <div className="project-body1" style={{ paddingTop: "2rem" }}>
             <img
               src={blog.bannerImg}
               alt=""
-              style={{ width: "100%", paddingTop: "4rem", marginBottom:"30px"}}
+              style={{ width: "100%", marginBottom:"30px"}}
             />
           </div>
         </div>
