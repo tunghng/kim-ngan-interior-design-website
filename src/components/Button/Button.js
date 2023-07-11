@@ -1,7 +1,7 @@
 import "./Button.css";
 
 const Button = (props) => {
-
+    let className = props.className;
     let styles = props.styles;
     let customedClass = props.customedClass;
 
@@ -15,7 +15,7 @@ const Button = (props) => {
     styles.background = "linear-gradient(90deg, #D59E19 0%, #BB7E2F 100%)";
     styles.cursor = "pointer";
 
-    return <div className = {["button", props.customedClass].join(" ")} 
+    return <div className = {className}
                 style = {styles}
                 onClick = {props.handleClick}            
             >

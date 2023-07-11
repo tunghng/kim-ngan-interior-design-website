@@ -31,9 +31,8 @@ const Footer = (props) => {
                     </div>
 
                     <Button
+                        className="right-button"
                         styles={{
-                            height: "3rem",
-                            width: "20rem",
                             padding: "0.05rem 1.5rem",
                             color: "#ffffff",
                         }}
@@ -50,10 +49,8 @@ const Footer = (props) => {
                     </div>
 
                     <div className="left-button">
-                        <Button
+                        <Button className="left-button"
                             styles={{
-                                height: "3rem",
-                                width: "22rem",
                                 padding: "0.05rem 1.5rem",
                                 color: "#ffffff",
                                 fontFamily:"SFUFutura",

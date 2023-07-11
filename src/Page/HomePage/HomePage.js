@@ -69,9 +69,9 @@ export default function HomePage() {
       {/*Section 2*/}
       <div className="section-2">
         <div className="left">
-          <div>
+          <div className="title">
             nhà sáng lập{" "}
-            <span style={{ fontSize: "24px", fontWeight: "700" }}>
+            <span>
               NỘI THẤT KIM NGÂN
             </span>
           </div>
@@ -223,20 +223,9 @@ export default function HomePage() {
         </div>
         <div
           className="section5-content"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            height: "35rem",
-          }}
         >
           <div
             className="left-row"
-            style={{
-              width: "50%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
           >
             <div
               style={{
@@ -264,12 +253,6 @@ export default function HomePage() {
           </div>
           <div
             className="right-row"
-            style={{
-              width: "50%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
           >
             <div
               style={{

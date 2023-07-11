@@ -25,6 +25,8 @@ const Project = () => {
     }
   }, []);
 
+  const [open, setOpen] = React.useState(false);
+
   return (
     <div>
         <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
