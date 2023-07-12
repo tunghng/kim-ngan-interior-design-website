@@ -27,28 +27,22 @@ const AboutUs = (props) => {
         <img src={image} alt="" className="image" />
       </div>
 
-      <div className="aboutUs-bottom">
-        <div style={{ display: "flex" }}>
-          <div className="aboutUs-bottom-left">
-            <div className="bottom-left-text">HOMESTEAD FURNITURE</div>
-            <Button
-              styles={{
-                height: "3rem",
-                width: "10rem",
-                padding: "0.05rem 1.5rem",
-                color: "#ffffff",
-              }}
-              content="Xem thêm"
-              handleClick={() => moveTo("/")}
-            ></Button>
-          </div>
-          <div className="aboutUs-bottom-right">
-            <div className="bottom-right-text">
-              An enthusiasm for creative living solutions develops into a bigger
-              mission for ourselves and the rest of the planet. Discover new
-              concepts, creative design inspiration, and forward-thinking ideas
-              for contemporary, multipurpose living by browsing our archive.
-            </div>
+      <div className="aboutUs-bottom" style={{ display: "flex" }}>
+        <div className="aboutUs-bottom-left">
+          <div className="bottom-left-text">HOMESTEAD FURNITURE</div>
+          <Button
+            className="aboutUs-button"
+            styles={{}}
+            content="Xem thêm"
+            handleClick={() => moveTo("/")}
+          ></Button>
+        </div>
+        <div className="aboutUs-bottom-right">
+          <div className="bottom-right-text">
+            An enthusiasm for creative living solutions develops into a bigger
+            mission for ourselves and the rest of the planet. Discover new
+            concepts, creative design inspiration, and forward-thinking ideas
+            for contemporary, multipurpose living by browsing our archive.
           </div>
         </div>
       </div>

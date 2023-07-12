@@ -50,10 +50,16 @@
     width: 100%;
 }
 
+.aboutUs-bottom .aboutUs-button {
+    height: 3rem;
+    width: 10rem;
+    padding: 0.05rem 1.5rem;
+    color: #ffffff;
+}
+
 .aboutUs-bottom {
     display: flex;
     justify-content: center;
-    align-items: center;
 
     width: 75%;
     padding-top: 3rem;
@@ -80,4 +86,103 @@
     font-size: 16px;
 
     width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+    .aboutUs-container {
+        width: 100%;
+        padding-top: 97px;
+        padding-bottom: 97px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        color: #080604;
+
+        background: #E6E1DE;
+    }
+
+    .header-text-container {
+        display: flex;
+        align-items: center;
+
+        gap: 1rem;
+    }
+
+    .header-text {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .header-subtext {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: Montserrat;
+
+        width: 90%;
+        text-align: center;
+
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .vector {
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .image-container {
+        width: 75%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .aboutUs-bottom .aboutUs-button {
+        height: 3rem;
+        width: 75%;
+        padding: 0.05rem 1.5rem;
+        color: #ffffff;
+    }
+
+    .aboutUs-bottom {
+        display: flex;
+        justify-content: center;
+
+        width: 75%;
+        padding-top: 3rem;
+    }
+
+    .aboutUs-bottom-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-left-text {
+        text-align: center;
+        font-size: 1.7rem;
+
+        margin-bottom: 24px;
+    }
+
+    .aboutUs-bottom-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .bottom-right-text {
+        display: none;
+    }
+
+    .aboutUs-bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

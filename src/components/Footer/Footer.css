@@ -427,7 +427,7 @@
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 560px) and (min-width: 470px) {
     .footer {
         background: #23211f;
         height: auto;
@@ -524,6 +524,113 @@
         padding: 0;
 
         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .medias {
+        width: 50px;
+        padding: 1rem 2rem;
+        border: 1px solid #665244;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer {
+        background: #23211f;
+        height: auto;
+    }
+
+    .bottom-right li, .bottom-right .medias, .bottom-left .left-heading, .bottom-left .agreetext {
+        font-family: Montserrat;
+    }
+
+    .footer-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15rem;
+        padding: 2rem;
+    }
+
+    .footer-top .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .footer-top .right {
+        display: none;
+    }
+
+    .footer .right-button {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .right .top-heading {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 2rem;
+
+        text-align: center;
+
+        color: white;
+    }
+
+    .footer-bottom {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .bottom-left {
+        display: none;
+    }
+
+    .bottom-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #665244;
+        border-bottom: 1px solid #665244;
+
+        padding: 2.5rem 0;
+    }
+
+    .bottom-right .right-pages {
+        list-style-type: none;
+        margin-top: 0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 400;
+        font-size: 12px;
+        color: #d0c2b0;
+    }
+
+    .bottom-right .right-pages li {
+        padding: 1rem 2rem;
+        border: 1px;
+    }
+
+    .right-medias {
+        list-style-type: none;
+        font-weight: 400;
+        font-size: 8px;
+        color: #d0c2b0;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

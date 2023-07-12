@@ -144,7 +144,7 @@ export default function HomePage() {
             <div className="header-text">Khách hàng</div>
           </div>
           <div
-            className="subHeader-text"
+            className="header-subtext"
             style={{
               textAlign: "center",
               marginTop: "20px",
@@ -206,7 +206,7 @@ export default function HomePage() {
               <div className="header-text">Sản phẩm</div>
             </div>
             <div
-              className="subHeader-text"
+              className="header-subtext"
               style={{
                 textAlign: "center",
                 marginTop: "20px",

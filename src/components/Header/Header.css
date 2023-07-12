@@ -238,7 +238,7 @@
     }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 840px) and (min-width: 500px) {
     .header-container {
         display: flex;
         justify-content: space-between;
@@ -364,6 +364,174 @@
         left: -173px;
         display: none;
         width: 173px;
+        gap:10px;
+        border-radius: 12px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .aboutUs-pop-up li {
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        color: #8B7F6E;
+        font-weight: 500;
+        background-color: #e6e1de;
+    }
+
+    .aboutUs-button:hover .aboutUs-pop-up{
+        display: block;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .aboutUs-pop-up li:hover {
+        background-color: grey;
+        color: black;
+    }
+
+    .aboutUs-pop-up li:first-child {
+        border-radius: 12px 0 0 0;
+    }
+
+    .aboutUs-pop-up li:last-child {
+        border-radius: 0 0 12px 12px;
+    }
+
+    .blank {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 100%;
+        padding: 0 20px;
+
+
+        border-bottom: 1px solid #E6E1DE;
+        color: #E6E1DE;
+
+        clear: both;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        box-sizing: border-box;
+    }
+
+    .header-container-active {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 100%;
+        padding: 0 20px;
+
+        border-bottom: 1px solid black;
+
+        background: #E6E1DE;
+        color: #080604;
+
+        clear: both;
+        position: fixed;
+        z-index: 9999;
+        box-sizing: border-box;
+    }
+
+    .header-logo {
+    }
+
+    .header-button {
+        cursor: pointer;
+    }
+
+    .header-content {
+        position: relative;
+    }
+
+    .header-content:hover .header-pages {
+        background-color: #E6E1DE;
+        color: #8B7F6E;;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    .header-pages {
+        display: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        min-width: 200px;
+        text-align: right;
+        border-radius: 12px;
+        border: 1px solid black;
+    }
+
+    .header-pages li {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        line-height: 40px;
+    }
+
+    .header-pages li:first-child {
+        border-radius: 12px 12px 0 0;
+    }
+
+    .header-pages li:last-child {
+        border-radius: 0 0 12px 12px;
+    }
+
+    .header-content:hover .header-pages li:hover {
+        background-color: grey;
+        color: black;
+    }
+
+    .blank {
+        opacity: 0;
+        width: 5rem;
+    }
+
+    .wrapper {
+        display: flex;
+        cursor: pointer;
+
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .header-pages li {
+        font-family: Montserrat;
+    }
+
+    li {
+        cursor: pointer;
+        line-height: 20px;
+    }
+
+    .aboutUs-button {
+        position: relative;
+    }
+
+    .aboutUs-pop-up {
+        position: absolute;
+        left: -130px;
+        display: none;
+        width: 130px;
         gap:10px;
         border-radius: 12px;
         list-style: none;
