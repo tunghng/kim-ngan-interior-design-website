@@ -23,19 +23,20 @@ const Header = ({headerStatus, headerColor, background}) => {
                 </div>
             </div>
 
-            <div>
+            <div className="header-content">
+                <div className="header-button">MENU</div>
                 <ul className="header-pages">
-                    <li onClick={() => moveTo("/")}>Trang chủ</li>
+                    <li className="top" onClick={() => moveTo("/")}>Trang chủ</li>
                     <li onClick={() => moveTo("/products")}>Sản phẩm</li>
                     <li onClick={() => moveTo("/projects")}>Dự án</li>
                     <li className="aboutUs-button">
                         <div className="aboutUs-title">Về chúng tôi</div>
-                        <div className="aboutUs-pop-up">
-                            <div className="up" onClick={() => moveTo("/aboutus/hr")}>Nhân sự</div>
-                            <div className="down" onClick={() => moveTo("/aboutus/clients")}>Khách hàng</div>
-                        </div>
+                        <ul className="aboutUs-pop-up">
+                            <li className="up" onClick={() => moveTo("/aboutus/hr")}>Nhân sự</li>
+                            <li className="down" onClick={() => moveTo("/aboutus/clients")}>Khách hàng</li>
+                        </ul>
                     </li>
-                    <li onClick={() => moveTo("/contact")}>Liên hệ</li>
+                    <li className="bottom" onClick={() => moveTo("/contact")}>Liên hệ</li>
                 </ul>
             </div>
 
