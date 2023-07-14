@@ -11,7 +11,6 @@ import vector from "../../../assets/aboutUs/Vector.png";
 
 import { Gallery } from "react-grid-gallery";
 import Header from "../../../components/Header/Header";
-import Lightbox from "yet-another-react-lightbox";
 
 const Project = () => {
   const { id } = useParams();
@@ -25,8 +24,6 @@ const Project = () => {
     }
   }, []);
 
-  const [open, setOpen] = React.useState(false);
-
   return (
     <div>
         <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
@@ -38,9 +35,11 @@ const Project = () => {
           <span>{` > `}</span> <span>{blog.title}</span>
         </div>
 
-        <div className="project-top">
-          <img src={vector} alt="" />
-          <div>{blog.title}</div>
+        <div className="homepage-header-container" style={{marginTop:"50px"}}>
+          <div className="header-text-container products-header">
+            <img src={vector} alt="" className="vector" />
+            <div className="header-text">{blog.title}</div>
+          </div>
         </div>
 
         <div className="project-body">
@@ -48,7 +47,7 @@ const Project = () => {
             className="project-body1"
             style={{ display: "flex", paddingTop: "3rem", gap: "6rem", justifyContent:"space-between" }}
           >
-            <div className="project-body1-left" style={{ width: "70%" }}>
+            <div className="project-body1-left">
               <div
                 className=""
                 style={{

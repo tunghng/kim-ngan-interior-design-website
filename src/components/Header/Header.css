@@ -78,14 +78,22 @@
         line-height: 20px;
     }
 
+    .aboutUs-button {
+        position: relative;
+    }
+
     .aboutUs-pop-up {
+        position: absolute;
         display: none;
+        right: -36px;
+        list-style: none;
         width: 173px;
         gap:10px;
         border-radius: 12px;
+        padding: 0;
     }
 
-    .aboutUs-pop-up div {
+    .aboutUs-pop-up li {
         float: none;
         display: flex;
         justify-content: center;
@@ -93,25 +101,26 @@
         height: 40px;
         color: #8B7F6E;
         font-weight: 500;
+        background-color: #e6e1de;
     }
 
-    .aboutUs-button:hover .aboutUs-pop-up{
+    .aboutUs-button:hover .aboutUs-pop-up {
         display: block;
         background-color: white;
         position: absolute;
         z-index: 1;
     }
 
-    .aboutUs-pop-up div:hover {
+    .aboutUs-pop-up li:hover {
         background-color: grey;
         color: black;
     }
 
-    .aboutUs-pop-up .up:hover {
+    .aboutUs-pop-up li:first-child {
         border-radius: 12px 12px 0 0;
     }
 
-    .aboutUs-pop-up .down:hover {
+    .aboutUs-pop-up li:last-child {
         border-radius: 0 0 12px 12px;
     }
 }
@@ -196,14 +205,22 @@
         line-height: 20px;
     }
 
+    .aboutUs-button {
+        position: relative;
+    }
+
     .aboutUs-pop-up {
+        position: absolute;
         display: none;
+        right: -45.5px;
+        list-style: none;
         width: 173px;
         gap:10px;
         border-radius: 12px;
+        padding: 0;
     }
 
-    .aboutUs-pop-up div {
+    .aboutUs-pop-up li {
         float: none;
         display: flex;
         justify-content: center;
@@ -211,25 +228,26 @@
         height: 40px;
         color: #8B7F6E;
         font-weight: 500;
+        background-color: #e6e1de;
     }
 
-    .aboutUs-button:hover .aboutUs-pop-up{
+    .aboutUs-button:hover .aboutUs-pop-up {
         display: block;
         background-color: white;
         position: absolute;
         z-index: 1;
     }
 
-    .aboutUs-pop-up div:hover {
+    .aboutUs-pop-up li:hover {
         background-color: grey;
         color: black;
     }
 
-    .aboutUs-pop-up .up:hover {
+    .aboutUs-pop-up li:first-child {
         border-radius: 12px 12px 0 0;
     }
 
-    .aboutUs-pop-up .down:hover {
+    .aboutUs-pop-up li:last-child {
         border-radius: 0 0 12px 12px;
     }
 
@@ -415,7 +433,6 @@
         width: 100%;
         padding: 0 20px;
 
-
         border-bottom: 1px solid #E6E1DE;
         color: #E6E1DE;
 
@@ -549,7 +566,7 @@
         background-color: #e6e1de;
     }
 
-    .aboutUs-button:hover .aboutUs-pop-up{
+    .aboutUs-button:hover .aboutUs-pop-up {
         display: block;
         background-color: white;
         position: absolute;

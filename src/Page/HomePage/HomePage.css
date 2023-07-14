@@ -5,7 +5,7 @@
 
     .homepage-header-container {
         margin-bottom: 5%;
-        width: 65%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -214,7 +214,7 @@
 
     .homepage-header-container {
         margin-bottom: 5%;
-        width: 65%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -425,7 +425,7 @@
 
     .homepage-header-container {
         margin-bottom: 5%;
-        width: 65%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;

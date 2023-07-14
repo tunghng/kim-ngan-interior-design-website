@@ -62,31 +62,48 @@ export default function HumanResources() {
                 </div>
             </div>
             <div className="hr-content">
-                <div className="section1">
-                    <div className="top">
-                        <div className="left">
-                            <div>nhà sáng lập <span style={{fontSize:"24px", fontWeight:"700"}}>Nội thất Kim Ngân</span></div>
-                            <div className="hr-text">
-                                <p>Được thành lập từ năm 2005, nội thất Kim Ngân là công ty chuyên nghiệp hoạt động trong lĩnh vực
-                                    thiết kế nội thất. Chúng tôi tư vấn, thiết kế, sản xuất, thi công nội thất gỗ tự nhiên và công
-                                    nghiệp cho các công trình cao cấp như khách sạn, biệt thự, văn phòng.
-                                </p>
-                                <p>Với tầm nhìn trở thành nhà cung cấp dịch vụ hàng đầu lĩnh vực nội thất trong khu vực, Kim Ngân
-                                    hoạt động với sứ mệnh tạo ra những công trình chuyên nghiệp, khác biệt và thể hiện phong cách
-                                    riêng của gia chủ. Mong muốn của đội ngũ chúng tôi là không chỉ thiết kế lên những không gian chất
-                                    lượng mà còn đem lại trải nghiệm sống ý nghĩa, tuyệt vời. Sự hài lòng của khách hàng luôn là động lực
-                                    và mục tiêu phát triển của công ty.
-                                </p>
-                            </div>
+                <div className="section-2">
+                    <div className="left">
+                        <div className="title">
+                            nhà sáng lập{" "}
+                            <span>
+                              NỘI THẤT KIM NGÂN
+                            </span>
                         </div>
-                        <div className="right">
-                            <img src={section2_img} alt=""/>
-                            <div style={{width:"80px", height:"4px", backgroundColor:"#D59E19", borderRadius:"20px", marginTop:"50px"}} />
-                            <h3 style={{color:"#D59E19", fontSize:"24px"}}>Nguyễn Thị Kim Ngân</h3>
-                            <h4 style={{color:"#3D290D", fontWeight:"500", fontSize:"18px"}}>CEO of Noi That Kim Ngan</h4>
-                            <p style={{color:"#64543D"}}>Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris.</p>
+                        <div className="text">
+                            <p>Được thành lập từ năm 2005, nội thất Kim Ngân là công ty chuyên nghiệp hoạt động trong lĩnh vực
+                                thiết kế nội thất. Chúng tôi tư vấn, thiết kế, sản xuất, thi công nội thất gỗ tự nhiên và công
+                                nghiệp cho các công trình cao cấp như khách sạn, biệt thự, văn phòng.
+                            </p>
+                            <p>Với tầm nhìn trở thành nhà cung cấp dịch vụ hàng đầu lĩnh vực nội thất trong khu vực, Kim Ngân
+                                hoạt động với sứ mệnh tạo ra những công trình chuyên nghiệp, khác biệt và thể hiện phong cách
+                                riêng của gia chủ. Mong muốn của đội ngũ chúng tôi là không chỉ thiết kế lên những không gian chất
+                                lượng mà còn đem lại trải nghiệm sống ý nghĩa, tuyệt vời. Sự hài lòng của khách hàng luôn là động lực
+                                và mục tiêu phát triển của công ty.
+                            </p>
                         </div>
+                    </div>
+                    <div className="right">
+                        <img src={section2_img} alt="" />
+                        <div
+                          style={{
+                              width: "80px",
+                              height: "4px",
+                              backgroundColor: "#D59E19",
+                              borderRadius: "20px",
+                              marginTop: "50px",
+                          }}
+                        />
+                        <h3 style={{ color: "#D59E19", fontSize: "24px" }}>
+                            Lê Thị Kim Ngân
+                        </h3>
+                        <h4 style={{ color: "#3D290D", fontWeight: "500", fontSize: "18px" }}>
+                            CEO NỘI THẤT KIM NGÂN
+                        </h4>
+                        <p style={{ color: "#64543D" }}>
+                            {/* Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris. */}
+                        </p>
                     </div>
                 </div>
                 <div className="section2">

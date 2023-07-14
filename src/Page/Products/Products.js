@@ -1,10 +1,6 @@
 import "./Products.css";
 import vector from "../../assets/aboutUs/Vector.png";
 import log from "../../assets/productPage/log.png";
-import img1 from "../../assets/productPage/dummy1.png";
-import img2 from "../../assets/productPage/dummy2.png";
-import img3 from "../../assets/productPage/dummy3.png";
-import long_img from "../../assets/productPage/wide_dummy.png";
 import other1 from "../../assets/productPage/other_product1.png";
 import other2 from "../../assets/productPage/other_product2.png";
 import xuong_go_1 from "../../assets/productPage/xuong_go_1.png";
@@ -57,13 +53,10 @@ export default function Products() {
     <div>
         <Header headerStatus={header}/>
       <div className="banner">
-        <div className="banner-header">
-          <div className="header-top">
-            <img src={vector} alt="" />
-            <div>Sản phẩm gỗ thật</div>
-          </div>
-
-          <div className="header-bot">
+        <div className="homepage-header-container">
+          <div className="header-text-container products-header">
+            <img src={vector} alt="" className="vector" />
+            <div className="header-text" style={{color:"white"}}>Sản phẩm gỗ thật</div>
           </div>
         </div>
 
@@ -101,9 +94,6 @@ export default function Products() {
           <img
             src={log}
             alt=""
-            style={{
-              width: "30rem",
-            }}
           />
         </div>
 
@@ -130,7 +120,7 @@ export default function Products() {
           className="album-header"
           style={{
             width: "50%",
-            paddingBottom: "6rem",
+            paddingBottom: "3rem",
           }}
         >
           <div
@@ -139,21 +129,10 @@ export default function Products() {
               fontWeight: "700",
               fontSize: "32px",
               lineHeight: "40px",
-              marginBottom: "1rem",
+              marginBottom: "0rem",
             }}
           >
             Album ảnh
-          </div>
-          <div
-            style={{
-              fontStyle: "normal",
-              fontWeight: "400",
-              fontSize: "16px",
-              lineHeight: "24px",
-            }}
-          >
-            Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được
-            làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ{" "}
           </div>
         </div>
 
@@ -220,19 +199,6 @@ export default function Products() {
         >
           Các album ảnh khác
         </div>
-        <div
-          style={{
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "16px",
-            lineHeight: "24px",
-            width: "50%",
-            paddingBottom: "4rem",
-          }}
-        >
-          Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm
-          từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-        </div>
 
         <div className="other-project">
           <div className="img__wrap">
@@ -241,13 +207,6 @@ export default function Products() {
                   <div className="text">
                     <div
                       className="title"
-                      style={{
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        fontSize: "24px",
-                        lineHeight: "40px",
-                        marginBottom: "1rem",
-                      }}
                     >
                       Title 1
                     </div>
@@ -256,11 +215,9 @@ export default function Products() {
                       được làm từ gỗ sản phẩm
                     </div>
                     <Button
+                      className="btn"
                       styles={{
-                        height: "2.5rem",
-                        width: "7.5rem",
-                        padding: "0.05rem 1.5rem",
-                        color: "#ffffff"
+
                       }}
                       content="Xem thêm"
                       // handleClick={() => moveTo("/")}
@@ -275,13 +232,6 @@ export default function Products() {
                 <div className="text">
                     <div
                       className="title"
-                      style={{
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        fontSize: "24px",
-                        lineHeight: "40px",
-                        marginBottom: "1rem",
-                      }}
                     >
                       Title 1
                     </div>
@@ -290,11 +240,8 @@ export default function Products() {
                       được làm từ gỗ sản phẩm
                     </div>
                     <Button
+                      className="btn"
                       styles={{
-                        height: "2.5rem",
-                        width: "7.5rem",
-                        padding: "0.05rem 1.5rem",
-                        color: "#ffffff"
                       }}
                       content="Xem thêm"
                       // handleClick={() => moveTo("/")}
@@ -309,13 +256,6 @@ export default function Products() {
                 <div className="text">
                     <div
                       className="title"
-                      style={{
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        fontSize: "24px",
-                        lineHeight: "40px",
-                        marginBottom: "1rem",
-                      }}
                     >
                       Title 1
                     </div>
@@ -324,11 +264,8 @@ export default function Products() {
                       được làm từ gỗ sản phẩm
                     </div>
                     <Button
+                      className="btn"
                       styles={{
-                        height: "2.5rem",
-                        width: "7.5rem",
-                        padding: "0.05rem 1.5rem",
-                        color: "#ffffff"
                       }}
                       content="Xem thêm"
                       // handleClick={() => moveTo("/")}

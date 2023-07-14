@@ -33,7 +33,7 @@ export default function Clients() {
                         <div className="header-text">Đối tác chiến lược</div>
                     </div>
                 </div>
-              <div className="clients-content">
+              <div className="section4-content clients-content">
                 <div className="clients-top-wrapper">
                   {clients.map((item, key) => {
                     if (item.position === 0) {
