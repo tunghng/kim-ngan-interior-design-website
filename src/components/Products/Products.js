@@ -3,7 +3,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import { useState } from "react";
 
 import vector from "../../assets/aboutUs/Vector.png";
-import product1 from "../../assets/project/khach san Toan Thang Stone/02.jpg";
+import product1 from "../../assets/project/khach san Toan Thang Stone/02.png";
 import product2 from "../../assets/project/benh vien Cua Dong/02.jpeg";
 import product3 from "../../assets/project/khach san Hai Au Thien Cam/01.jpeg";
 import product4 from "../../assets/project/khach san Cua Dong Luxury/01.png";
