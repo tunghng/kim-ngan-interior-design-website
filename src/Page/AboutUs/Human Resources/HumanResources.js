@@ -51,13 +51,10 @@ export default function HumanResources() {
                     <div className="subHeader-text"
                          style={{
                              textAlign: "center",
-                             marginTop: "20px",
+                             marginTop: "0",
                              fontWeight: "400",
                          }}
                     >
-                        Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-                        sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản
-                        phẩm được làm từ gỗ
                     </div>
                 </div>
             </div>

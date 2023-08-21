@@ -23,6 +23,20 @@ export default function Contact() {
         }
     ]
 
+    const address = [
+        {
+            branch: "Trụ sở chính: Town 3.4 Khai Sơn Town, Khai Sơn City, Thượng Thanh, Long Biên, Hà Nội",
+            workshop: [
+                "Xưởng sản xuất 1: Khu làng nghề xã Nam Tiến, Phú Xuyên, Hà Nội",
+                "Xưởng sản xuất 2: Ngõ 39, Cầu Mai Lĩnh, Biên Giang, Hà Nội"
+            ]
+        },
+        {
+            branch: "Chi nhánh Miền Trung: Biệt thự liền kề số 14, Đường 72m, Tp Vinh, Nghệ An",
+            workshop: ["Xưởng sản xuất: Số 68, Đường Lệ Ninh, Khối 8, Quán Bàu, TP Vinh, Nghệ An"]
+        },
+    ]
+
     const dropdown = [
         {
             question: "Loại dự án",
@@ -35,7 +49,7 @@ export default function Contact() {
             <div className="homepage-header-container">
                 <div className="header-text-container products-header" style={{width:"100%"}}>
                     <img src={vector} alt="" className="vector" />
-                    <div className="header-text">Leave us a message</div>
+                    <div className="header-text">Liên hệ</div>
                 </div>
                 <div className="subHeader-text"
                      style={{
@@ -44,31 +58,47 @@ export default function Contact() {
                          fontWeight: "400",
                      }}
                 >
-                    Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-                    sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản
-                    phẩm được làm từ gỗ
+                    Để lại lời nhắn và chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất. Hoặc liên hệ qua thông tin bên dưới.
+                </div>
+            </div>
+            <div className="contact-content" style={{marginBottom:"52px"}}>
+                <div>
+                    <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+                        <div className="box">
+                            <img src={location} alt=""/>
+                        </div>
+                        <p style={{textAlign:"left", fontWeight:"500"}}>Công ty TNHH MTV Kim Ngân Plaza</p>
+                    </div>
+                    <div>
+                        {address.map((item, index) => (
+                            <div>
+                                <div>{item.branch}</div>
+                                <ul>
+                                    {item.workshop.map((workshop) => (
+                                      <li style={{cursor:"text"}}>{workshop}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className="contact-content">
                 <div className="left">
                     <div className="up">
                         <div>
-                            <div className="box"><img src={mail} alt=""/></div>
-                            <p>noithatkimngan@gmail.com</p>
+                            <div className="box"><img src={atOutline} alt=""/></div>
+                            <p>noithatkimngan.com</p>
                         </div>
                         <div>
                             <div className="box"><img src={call} alt=""/></div>
-                            <p>0988 888 888</p>
+                            <p>0963 565 189</p>
                         </div>
                     </div>
                     <div className="down">
                         <div>
-                            <div className="box"><img src={location} alt=""/></div>
-                            <p>Biệt thự liền kề số 14, Đường 72m, Vinh, Vietnam</p>
-                        </div>
-                        <div>
-                            <div className="box"><img src={atOutline} alt=""/></div>
-                            <p>messenger.com/ntkn</p>
+                            <div className="box"><img src={mail} alt=""/></div>
+                            <p>kimnganfurniture@noithatkimngan.com</p>
                         </div>
                     </div>
                 </div>

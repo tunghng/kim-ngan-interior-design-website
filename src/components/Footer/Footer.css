@@ -120,6 +120,8 @@
     .medias {
         padding: 1rem 2rem;
         border: 1px solid #665244;
+        color: #d0c2b0;
+        text-decoration: none;
     }
 
     .left-checkbox {
@@ -270,6 +272,8 @@
         width: 50px;
         padding: 1rem 2rem;
         border: 1px solid #665244;
+        color: #d0c2b0;
+        text-decoration: none;
     }
 
     .left-checkbox {
@@ -408,6 +412,8 @@
         width: 50px;
         padding: 1rem 2rem;
         border: 1px solid #665244;
+        color: #d0c2b0;
+        text-decoration: none;
     }
 
     .left-checkbox {
@@ -532,6 +538,8 @@
         width: 50px;
         padding: 1rem 2rem;
         border: 1px solid #665244;
+        color: #d0c2b0;
+        text-decoration: none;
     }
 }
 
@@ -639,5 +647,7 @@
         width: 50px;
         padding: 1rem 2rem;
         border: 1px solid #665244;
+        color: #d0c2b0;
+        text-decoration: none;
     }
 }

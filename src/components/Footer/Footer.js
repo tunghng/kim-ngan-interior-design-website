@@ -27,7 +27,7 @@ const Footer = (props) => {
                 </div>
                 <div className="right">
                     <div className="top-heading">
-                        We provide best handpicked home decor
+                        Chúng tôi luôn cung cấp dịch vụ thiết kế tỉ mỉ nhất
                     </div>
 
                     <Button
@@ -45,7 +45,7 @@ const Footer = (props) => {
             <div className="footer-bottom">
                 <div className="bottom-left">
                     <div className="left-heading">
-                        Subscribe to receive grape news & offers
+                        Đăng ký để nhận tin tức mới nhất
                     </div>
 
                     <div className="left-button">
@@ -56,7 +56,7 @@ const Footer = (props) => {
                                 fontFamily:"SFUFutura",
                                 justifyContent:"flex-start"
                             }}
-                            content="Enter your email"
+                            content="Nhập email của bạn"
                             handleClick={() => moveTo("/contact")}
                         ></Button>
                     </div>
@@ -67,8 +67,7 @@ const Footer = (props) => {
                             onChange={() => setChecked(!isBoxChecked)}
                         ></input>
                         <span className="agreetext" style={{fontSize:"14px", width:"25rem"}}>
-                            I've read the Privacy Policy and I consent to Halal
-                            Interior sending me marketing communications
+                            Tôi đã đọc và đồng ý nhận thông tin mới nhất từ Nội thất Kim Ngân
                         </span>
                     </div>
                 </div>
@@ -84,10 +83,10 @@ const Footer = (props) => {
                     </div>
                     <div>
                         <ul className="right-medias">
-                            <li><div className="medias">INSTAGRAM</div></li>
-                            <li><div className="medias">FACEBOOK</div></li>
-                            <li><div className="medias">PINTEREST</div></li>
-                            <li><div className="medias">TWITTER</div></li>
+                            <li><a href='#' className="medias" target="_blank">INSTAGRAM</a></li>
+                            <li><a href='https://www.facebook.com/kimnganfurniture' className="medias" target="_blank">FACEBOOK</a></li>
+                            <li><a href='#' className="medias" target="_blank">PINTEREST</a></li>
+                            <li><a href='#' className="medias" target="_blank">TWITTER</a></li>
                         </ul>
                     </div>
                 </div>

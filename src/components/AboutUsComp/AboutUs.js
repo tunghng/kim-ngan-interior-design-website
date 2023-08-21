@@ -29,7 +29,7 @@ const AboutUs = (props) => {
 
       <div className="aboutUs-bottom" style={{ display: "flex" }}>
         <div className="aboutUs-bottom-left">
-          <div className="bottom-left-text">HOMESTEAD FURNITURE</div>
+          <div className="bottom-left-text">NỘI THẤT KIM NGÂN</div>
           <Button
             className="aboutUs-button"
             styles={{}}
@@ -39,10 +39,10 @@ const AboutUs = (props) => {
         </div>
         <div className="aboutUs-bottom-right">
           <div className="bottom-right-text">
-            An enthusiasm for creative living solutions develops into a bigger
-            mission for ourselves and the rest of the planet. Discover new
-            concepts, creative design inspiration, and forward-thinking ideas
-            for contemporary, multipurpose living by browsing our archive.
+            Sự hăng hái đối với những giải pháp sống sáng tạo trở thành một sứ mệnh lớn hơn cho
+            chính chúng ta và toàn bộ hành tinh. Khám phá những khái niệm mới, nguồn cảm hứng thiết
+            kế sáng tạo và những ý tưởng đầy tầm nhìn cho cuộc sống đa năng hiện đại bằng cách duyệt
+            qua bộ sưu tập của chúng tôi.
           </div>
         </div>
       </div>

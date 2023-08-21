@@ -12,6 +12,12 @@ import xuong_go_5 from "../../assets/productPage/xuong_go_5.jpeg";
 import Button from "../../components/Button/Button";
 import Header from "../../components/Header/Header";
 import React, {useState} from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import {Autoplay, Navigation, Pagination} from "swiper";
 
 export default function Products() {
     const [header, setHeader] = useState(false);
@@ -38,6 +44,24 @@ export default function Products() {
         {
             text: "Sau khi bàn giao, quý khách hàng sẽ nhận được sự chăm sóc và bảo hành chu đáo bởi đối với Kim Ngân, chất lượng chính là yếu tố giữ chân khách hàng và giá trị cốt lõi cần phải giữ gìn."
         }
+    ]
+
+    const images = [
+      {
+        img: xuong_go_1,
+      },
+      {
+        img: xuong_go_2,
+      },
+      {
+        img: xuong_go_3,
+      },
+      {
+        img: xuong_go_4,
+      },
+      {
+        img: xuong_go_5,
+      }
     ]
 
     const changeBackground = () => {
@@ -137,53 +161,68 @@ export default function Products() {
         </div>
 
         <div className="pics">
-          <div className="first-line">
-            <img
-              src={xuong_go_2}
-              alt=""
-              style={{
-                width: "49%",
-                height:"auto",
-                objectFit:"cover"
-              }}
-            />
-            <img
-              src={xuong_go_3}
-              alt=""
-              style={{
-                width: "49%"
-              }}
-            />
-          </div>
+          {/*<div className="first-line">*/}
+          {/*  <img*/}
+          {/*    src={xuong_go_2}*/}
+          {/*    alt=""*/}
+          {/*    style={{*/}
+          {/*      width: "49%",*/}
+          {/*      height:"auto",*/}
+          {/*      objectFit:"cover"*/}
+          {/*    }}*/}
+          {/*  />*/}
+          {/*  <img*/}
+          {/*    src={xuong_go_3}*/}
+          {/*    alt=""*/}
+          {/*    style={{*/}
+          {/*      width: "49%"*/}
+          {/*    }}*/}
+          {/*  />*/}
+          {/*</div>*/}
 
-          <div className="second-line">
-            <img
-              src={xuong_go_1}
-              alt=""
-              style={{
-                width: "100%",
-                marginTop: "1.5rem",
-                marginBottom: "1.5rem",
-              }}
-            />
-          </div>
+          {/*<div className="second-line">*/}
+          {/*  <img*/}
+          {/*    src={xuong_go_1}*/}
+          {/*    alt=""*/}
+          {/*    style={{*/}
+          {/*      width: "100%",*/}
+          {/*      marginTop: "1.5rem",*/}
+          {/*      marginBottom: "1.5rem",*/}
+          {/*    }}*/}
+          {/*  />*/}
+          {/*</div>*/}
 
-          <div className="third-line">
-            <img
-              src={xuong_go_4}
-              alt=""
-              style={{
-                width: "49%",
-              }}
-            />
-            <img
-              src={xuong_go_5}
-              alt=""
-              style={{
-                width: "49%",
-              }}
-            />
-          </div>
+          {/*<div className="third-line">*/}
+          {/*  <img*/}
+          {/*    src={xuong_go_4}*/}
+          {/*    alt=""*/}
+          {/*    style={{*/}
+          {/*      width: "49%",*/}
+          {/*    }}*/}
+          {/*  />*/}
+          {/*  <img*/}
+          {/*    src={xuong_go_5}*/}
+          {/*    alt=""*/}
+          {/*    style={{*/}
+          {/*      width: "49%",*/}
+          {/*    }}*/}
+          {/*  />*/}
+          {/*</div>*/}
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            slidesPerView={1}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay
+          >
+            {images.map((item, index) => (
+              <SwiperSlide>
+                <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+                  <img src={item.img} width="60%" style={{aspectRatio:"16/9"}}/>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
 
@@ -268,7 +307,6 @@ export default function Products() {
                       styles={{
                       }}
                       content="Xem thêm"
-                      // handleClick={() => moveTo("/")}
                     />
                 </div>
             </div>

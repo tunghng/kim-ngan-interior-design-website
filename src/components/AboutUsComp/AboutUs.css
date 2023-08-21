@@ -34,8 +34,7 @@
     width: 60%;
     text-align: center;
 
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
 }
 
 .vector {
@@ -44,6 +43,7 @@
 }
 
 .image-container {
+    margin-top: 3rem;
     width: 75%;
 }
 
