@@ -1,6 +1,7 @@
 import "./Products.css";
 import vector from "../../assets/aboutUs/Vector.png";
 import log from "../../assets/productPage/log.png";
+import log1 from "../../assets/productPage/log1.png";
 import other1 from "../../assets/productPage/other_product1.png";
 import other2 from "../../assets/productPage/other_product2.png";
 import xuong_go_1 from "../../assets/productPage/xuong_go_1.png";
@@ -116,7 +117,7 @@ export default function Products() {
       <div className="description">
         <div className="description-left">
           <img
-            src={log}
+            src={log1}
             alt=""
           />
         </div>
