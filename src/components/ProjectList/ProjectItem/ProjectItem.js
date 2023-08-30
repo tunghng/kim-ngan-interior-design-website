@@ -25,7 +25,8 @@ const ProjectItem = ({ blog: { cover, title, id } }) => {
               width:"80%",
               fontFamily: "Montserrat",
               fontWeight: "600",
-              fontSize: "28px"
+              fontSize: "28px",
+              textShadow: "1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black, 0px -1px 0px black"
           }}
           >
             {title}

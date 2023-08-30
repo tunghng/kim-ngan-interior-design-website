@@ -3,7 +3,7 @@ import Header from "../../../components/Header/Header";
 import vector from "../../../assets/aboutUs/Vector.png";
 
 import "./HumanResources.css";
-import section2_img from "../../../assets/HomePage/section2_img.png";
+import section2_img from "../../../assets/HomePage/section2_img.jpg";
 import section3_img from "../../../assets/aboutUs/section3image.png";
 
 export default function HumanResources() {
@@ -81,7 +81,7 @@ export default function HumanResources() {
                         </div>
                     </div>
                     <div className="right">
-                        <img src={section2_img} alt="" />
+                        <img src={section2_img} alt="" style={{width:"80%"}}/>
                         <div
                           style={{
                               width: "80px",

@@ -18,7 +18,7 @@ import Button from "../../components/Button/Button";
 import { moveTo } from "../../utils/HelperFunction";
 import vector from "../../assets/aboutUs/Vector.png";
 
-import section2_img from "../../assets/HomePage/section2_img.png";
+import section2_img from "../../assets/HomePage/section2_img.jpg";
 import Header from "../../components/Header/Header";
 
 export default function HomePage() {
@@ -91,7 +91,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="right">
-          <img src={section2_img} alt="" />
+          <img src={section2_img} alt="" style={{width:"80%"}}/>
           <div
             style={{
               width: "80px",
@@ -118,15 +118,15 @@ export default function HomePage() {
       <div className="section-3">
         <div>
           <h1>180+</h1>
-          <h2>Clients Served</h2>
+          <h2>Khách hàng</h2>
         </div>
         <div>
           <h1>10+</h1>
-          <h2>Years of experience</h2>
+          <h2>Năm kinh nghiệm</h2>
         </div>
         <div>
           <h1>5+</h1>
-          <h2>Office world wide</h2>
+          <h2>Văn phòng trên thế giới</h2>
         </div>
       </div>
 

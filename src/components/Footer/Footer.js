@@ -83,10 +83,10 @@ const Footer = (props) => {
                     </div>
                     <div>
                         <ul className="right-medias">
-                            <li><a href='#' className="medias" target="_blank">INSTAGRAM</a></li>
+                            {/*<li><a href='#' className="medias" target="_blank">INSTAGRAM</a></li>*/}
                             <li><a href='https://www.facebook.com/kimnganfurniture' className="medias" target="_blank">FACEBOOK</a></li>
-                            <li><a href='#' className="medias" target="_blank">PINTEREST</a></li>
-                            <li><a href='#' className="medias" target="_blank">TWITTER</a></li>
+                            {/*<li><a href='#' className="medias" target="_blank">PINTEREST</a></li>*/}
+                            {/*<li><a href='#' className="medias" target="_blank">TWITTER</a></li>*/}
                         </ul>
                     </div>
                 </div>
