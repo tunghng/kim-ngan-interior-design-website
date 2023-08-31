@@ -75,7 +75,7 @@ const Footer = (props) => {
                 <div className="bottom-right">
                     <div>
                         <ul className="right-pages">
-                            <li onClick={() => moveTo("/products")}>Sản phẩm</li>
+                            <li onClick={() => moveTo("/products")}>Nhà xưởng</li>
                             <li onClick={() => moveTo("/projects")}>Dự án</li>
                             <li onClick={() => moveTo("/aboutus/hr")}>Về chúng tôi</li>
                             <li onClick={() => moveTo("/contact")}>Liên hệ</li>

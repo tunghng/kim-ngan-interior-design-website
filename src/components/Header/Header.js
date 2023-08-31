@@ -27,7 +27,7 @@ const Header = ({headerStatus, headerColor, background}) => {
                 <div className="header-button">MENU</div>
                 <ul className="header-pages">
                     <li className="top" onClick={() => moveTo("/")}>Trang chủ</li>
-                    <li onClick={() => moveTo("/products")}>Sản phẩm</li>
+                    <li onClick={() => moveTo("/products")}>Nhà xưởng</li>
                     <li onClick={() => moveTo("/projects")}>Dự án</li>
                     <li className="aboutUs-button">
                         <div className="aboutUs-title">Về chúng tôi</div>

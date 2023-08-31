@@ -81,20 +81,20 @@ export default function Products() {
         <div className="homepage-header-container">
           <div className="header-text-container products-header">
             <img src={vector} alt="" className="vector" />
-            <div className="header-text" style={{color:"white"}}>Sản phẩm gỗ thật</div>
+            <div className="header-text" style={{color:"white"}}>Xưởng gỗ Kim Ngân</div>
           </div>
         </div>
 
         <div className="banner-bot">
           <div className="bot-left">
-            <div
-              style={{
-                fontWeight: "700",
-                marginBottom: "1rem",
-              }}
-            >
-                Xưởng gỗ Kim Ngân
-            </div>
+            {/*<div*/}
+            {/*  style={{*/}
+            {/*    fontWeight: "700",*/}
+            {/*    marginBottom: "1rem",*/}
+            {/*  }}*/}
+            {/*>*/}
+            {/*    Xưởng gỗ Kim Ngân*/}
+            {/*</div>*/}
               {banner.map((item, index) => {
                 return (
                   <div

@@ -203,7 +203,7 @@ export default function HomePage() {
           <div className="homepage-header-container">
             <div className="header-text-container products-header">
               <img src={vector} alt="" className="vector" />
-              <div className="header-text">Sản phẩm</div>
+              <div className="header-text">Nhà xưởng</div>
             </div>
             <div
               className="header-subtext"
