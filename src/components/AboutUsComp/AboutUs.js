@@ -39,10 +39,11 @@ const AboutUs = (props) => {
         </div>
         <div className="aboutUs-bottom-right">
           <div className="bottom-right-text">
-            Sự hăng hái đối với những giải pháp sống sáng tạo trở thành một sứ mệnh lớn hơn cho
-            chính chúng ta và toàn bộ hành tinh. Khám phá những khái niệm mới, nguồn cảm hứng thiết
-            kế sáng tạo và những ý tưởng đầy tầm nhìn cho cuộc sống đa năng hiện đại bằng cách duyệt
-            qua bộ sưu tập của chúng tôi.
+            Sự hăng hái đối với những giải pháp sống sáng tạo trở thành một sứ
+            mệnh lớn hơn cho chính chúng ta và toàn bộ hành tinh. Khám phá những
+            khái niệm mới, nguồn cảm hứng thiết kế sáng tạo và những ý tưởng đầy
+            tầm nhìn cho cuộc sống đa năng hiện đại bằng cách duyệt qua bộ sưu
+            tập của chúng tôi.
           </div>
         </div>
       </div>

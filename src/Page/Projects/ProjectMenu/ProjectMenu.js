@@ -15,7 +15,11 @@ export default function ProjectMenu() {
 
   return (
     <div className="project">
-      <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
+      <Header
+        headerStatus={false}
+        headerColor={"black"}
+        background={"#E6E1DE"}
+      />
       <div className="menu-header">
         <div className="menu-top">
           <img src={vector} alt="" />

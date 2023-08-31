@@ -66,7 +66,6 @@ import vector from "../../../assets/aboutUs/Vector.png";
 import { Gallery } from "react-grid-gallery";
 import Header from "../../../components/Header/Header";
 
-
 const PhotoAlbum = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState(<div>hello</div>);
@@ -80,11 +79,20 @@ const PhotoAlbum = () => {
 
   return (
     <div>
-        <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
+      <Header
+        headerStatus={false}
+        headerColor={"black"}
+        background={"#E6E1DE"}
+      />
       <div className="project-item" style={{ background: "#E6E1DE" }}>
         <div className="project-goBack">
           <span>
-            <Link to="/projects" style={{textDecoration:"none", color:"black"}}>Projects</Link>
+            <Link
+              to="/projects"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              Projects
+            </Link>
           </span>
           <span>{` > `}</span> <span>{blog.title}</span>
         </div>
@@ -97,7 +105,12 @@ const PhotoAlbum = () => {
         <div className="project-body">
           <div
             className="project-body1"
-            style={{ display: "flex", paddingTop: "3rem", gap: "6rem", justifyContent:"space-between" }}
+            style={{
+              display: "flex",
+              paddingTop: "3rem",
+              gap: "6rem",
+              justifyContent: "space-between",
+            }}
           >
             <div className="project-body1-left" style={{ width: "70%" }}>
               <div
@@ -115,19 +128,25 @@ const PhotoAlbum = () => {
             <img
               src={logo}
               className="project-body1-right"
-              style={{ display: "flex" }} alt=""
+              style={{ display: "flex" }}
+              alt=""
             ></img>
           </div>
         </div>
       </div>
 
-      
-      <div style={{ paddingLeft: '8%', paddingRight: '8%', background: "#E6E1DE", paddingBottom: "3rem"}}>
-        <Gallery images={blog.imgs} id="images"/>
+      <div
+        style={{
+          paddingLeft: "8%",
+          paddingRight: "8%",
+          background: "#E6E1DE",
+          paddingBottom: "3rem",
+        }}
+      >
+        <Gallery images={blog.imgs} id="images" />
       </div>
     </div>
   );
 };
 
 export default PhotoAlbum;
-

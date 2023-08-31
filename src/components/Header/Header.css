@@ -1,592 +1,591 @@
 @media screen and (min-width: 1270px) {
-    .header-container {
-        display: flex;
+  .header-container {
+    display: flex;
 
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 
-        height: 4rem;
-        width: 100%;
-        gap: 11rem;
+    height: 4rem;
+    width: 100%;
+    gap: 11rem;
 
-        border-bottom: 1px solid #E6E1DE;
+    border-bottom: 1px solid #e6e1de;
 
-        /* background: #d2b298; */
-        color: #E6E1DE;
+    /* background: #d2b298; */
+    color: #e6e1de;
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-    }
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+  }
 
-    .header-container-active {
-        display: flex;
+  .header-container-active {
+    display: flex;
 
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 
-        height: 4rem;
-        width: 100%;
-        gap: 11rem;
+    height: 4rem;
+    width: 100%;
+    gap: 11rem;
 
-        border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 
-        background: #E6E1DE;
-        color: #080604;
+    background: #e6e1de;
+    color: #080604;
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-    }
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+  }
 
-    .header-button {
-        display: none;
-    }
+  .header-button {
+    display: none;
+  }
 
-    .blank {
-        opacity: 0;
-        width: 5rem;
-    }
+  .blank {
+    opacity: 0;
+    width: 5rem;
+  }
 
-    .wrapper {
-        display: flex;
-        cursor: pointer;
+  .wrapper {
+    display: flex;
+    cursor: pointer;
 
-        font-weight: 400;
-        font-size: 1rem;
-    }
+    font-weight: 400;
+    font-size: 1rem;
+  }
 
-    .header-pages {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+  .header-pages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-        display: flex;
-        gap: 6.5rem;
+    display: flex;
+    gap: 6.5rem;
 
-        font-weight: 400;
-        font-size: 1rem;
-    }
+    font-weight: 400;
+    font-size: 1rem;
+  }
 
-    .header-pages li {
-        font-family: Montserrat;
-    }
+  .header-pages li {
+    font-family: Montserrat;
+  }
 
-    li {
-        cursor: pointer;
-        line-height: 20px;
-    }
+  li {
+    cursor: pointer;
+    line-height: 20px;
+  }
 
-    .aboutUs-button {
-        position: relative;
-    }
+  .aboutUs-button {
+    position: relative;
+  }
 
-    .aboutUs-pop-up {
-        position: absolute;
-        display: none;
-        right: -36px;
-        list-style: none;
-        width: 173px;
-        gap:10px;
-        border-radius: 12px;
-        padding: 0;
-    }
+  .aboutUs-pop-up {
+    position: absolute;
+    display: none;
+    right: -36px;
+    list-style: none;
+    width: 173px;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 0;
+  }
 
-    .aboutUs-pop-up li {
-        float: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        color: #8B7F6E;
-        font-weight: 500;
-        background-color: #e6e1de;
-    }
+  .aboutUs-pop-up li {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #8b7f6e;
+    font-weight: 500;
+    background-color: #e6e1de;
+  }
 
-    .aboutUs-button:hover .aboutUs-pop-up {
-        display: block;
-        background-color: white;
-        position: absolute;
-        z-index: 1;
-    }
+  .aboutUs-button:hover .aboutUs-pop-up {
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+  }
 
-    .aboutUs-pop-up li:hover {
-        background-color: grey;
-        color: black;
-    }
+  .aboutUs-pop-up li:hover {
+    background-color: grey;
+    color: black;
+  }
 
-    .aboutUs-pop-up li:first-child {
-        border-radius: 12px 12px 0 0;
-    }
+  .aboutUs-pop-up li:first-child {
+    border-radius: 12px 12px 0 0;
+  }
 
-    .aboutUs-pop-up li:last-child {
-        border-radius: 0 0 12px 12px;
-    }
+  .aboutUs-pop-up li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
 }
 
 @media screen and (max-width: 1270px) and (min-width: 840px) {
-    .header-container {
-        display: flex;
+  .header-container {
+    display: flex;
 
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 
-        height: 4rem;
-        width: 100%;
-        gap: 11rem;
+    height: 4rem;
+    width: 100%;
+    gap: 11rem;
 
-        border-bottom: 1px solid #E6E1DE;
+    border-bottom: 1px solid #e6e1de;
 
-        /* background: #d2b298; */
-        color: #E6E1DE;
+    /* background: #d2b298; */
+    color: #e6e1de;
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-    }
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+  }
 
-    .header-container-active {
-        display: flex;
+  .header-container-active {
+    display: flex;
 
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 
-        height: 4rem;
-        width: 100%;
-        gap: 11rem;
+    height: 4rem;
+    width: 100%;
+    gap: 11rem;
 
-        border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 
-        background: #E6E1DE;
-        color: #080604;
+    background: #e6e1de;
+    color: #080604;
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-    }
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+  }
 
-    .header-button {
-        display: none;
-    }
+  .header-button {
+    display: none;
+  }
 
-    .blank {
-        opacity: 0;
-        width: 5rem;
-    }
+  .blank {
+    opacity: 0;
+    width: 5rem;
+  }
 
-    .wrapper {
-        display: flex;
-        cursor: pointer;
+  .wrapper {
+    display: flex;
+    cursor: pointer;
 
-        font-weight: 400;
-        font-size: 1rem;
-    }
+    font-weight: 400;
+    font-size: 1rem;
+  }
 
-    .header-pages {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+  .header-pages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-        display: flex;
-        gap: 5rem;
+    display: flex;
+    gap: 5rem;
 
-        font-weight: 400;
-        font-size: 0.8rem;
-    }
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
 
-    .header-pages li {
-        font-family: Montserrat;
-    }
+  .header-pages li {
+    font-family: Montserrat;
+  }
 
-    li {
-        cursor: pointer;
-        line-height: 20px;
-    }
+  li {
+    cursor: pointer;
+    line-height: 20px;
+  }
 
-    .aboutUs-button {
-        position: relative;
-    }
+  .aboutUs-button {
+    position: relative;
+  }
 
-    .aboutUs-pop-up {
-        position: absolute;
-        display: none;
-        right: -45.5px;
-        list-style: none;
-        width: 173px;
-        gap:10px;
-        border-radius: 12px;
-        padding: 0;
-    }
+  .aboutUs-pop-up {
+    position: absolute;
+    display: none;
+    right: -45.5px;
+    list-style: none;
+    width: 173px;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 0;
+  }
 
-    .aboutUs-pop-up li {
-        float: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        color: #8B7F6E;
-        font-weight: 500;
-        background-color: #e6e1de;
-    }
+  .aboutUs-pop-up li {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #8b7f6e;
+    font-weight: 500;
+    background-color: #e6e1de;
+  }
 
-    .aboutUs-button:hover .aboutUs-pop-up {
-        display: block;
-        background-color: white;
-        position: absolute;
-        z-index: 1;
-    }
+  .aboutUs-button:hover .aboutUs-pop-up {
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+  }
 
-    .aboutUs-pop-up li:hover {
-        background-color: grey;
-        color: black;
-    }
+  .aboutUs-pop-up li:hover {
+    background-color: grey;
+    color: black;
+  }
 
-    .aboutUs-pop-up li:first-child {
-        border-radius: 12px 12px 0 0;
-    }
+  .aboutUs-pop-up li:first-child {
+    border-radius: 12px 12px 0 0;
+  }
 
-    .aboutUs-pop-up li:last-child {
-        border-radius: 0 0 12px 12px;
-    }
+  .aboutUs-pop-up li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
 
-    .blank {
-        display: none;
-    }
+  .blank {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 840px) and (min-width: 500px) {
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 4rem;
-        width: 100%;
-        padding: 0 20px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    padding: 0 20px;
 
+    border-bottom: 1px solid #e6e1de;
+    color: #e6e1de;
 
-        border-bottom: 1px solid #E6E1DE;
-        color: #E6E1DE;
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    box-sizing: border-box;
+  }
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-        box-sizing: border-box;
-    }
+  .header-container-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    padding: 0 20px;
 
-    .header-container-active {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 4rem;
-        width: 100%;
-        padding: 0 20px;
+    border-bottom: 1px solid black;
 
-        border-bottom: 1px solid black;
+    background: #e6e1de;
+    color: #080604;
 
-        background: #E6E1DE;
-        color: #080604;
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+    box-sizing: border-box;
+  }
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-        box-sizing: border-box;
-    }
+  .header-logo {
+  }
 
-    .header-logo {
-    }
+  .header-button {
+    cursor: pointer;
+  }
 
-    .header-button {
-        cursor: pointer;
-    }
+  .header-content {
+    position: relative;
+  }
 
-    .header-content {
-        position: relative;
-    }
+  .header-content:hover .header-pages {
+    background-color: #e6e1de;
+    color: #8b7f6e;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    .header-content:hover .header-pages {
-        background-color: #E6E1DE;
-        color: #8B7F6E;;
-        position: absolute;
-        right: 0;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
 
-        font-weight: 500;
-        font-size: 0.8rem;
-    }
+  .header-pages {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    text-align: right;
+    border-radius: 12px;
+    border: 1px solid black;
+  }
 
-    .header-pages {
-        display: none;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        min-width: 200px;
-        text-align: right;
-        border-radius: 12px;
-        border: 1px solid black;
-    }
+  .header-pages li {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+  }
 
-    .header-pages li {
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        line-height: 40px;
-    }
+  .header-pages li:first-child {
+    border-radius: 12px 12px 0 0;
+  }
 
-    .header-pages li:first-child {
-        border-radius: 12px 12px 0 0;
-    }
+  .header-pages li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
 
-    .header-pages li:last-child {
-        border-radius: 0 0 12px 12px;
-    }
+  .header-content:hover .header-pages li:hover {
+    background-color: grey;
+    color: black;
+  }
 
-    .header-content:hover .header-pages li:hover {
-        background-color: grey;
-        color: black;
-    }
+  .blank {
+    opacity: 0;
+    width: 5rem;
+  }
 
-    .blank {
-        opacity: 0;
-        width: 5rem;
-    }
+  .wrapper {
+    display: flex;
+    cursor: pointer;
 
-    .wrapper {
-        display: flex;
-        cursor: pointer;
+    font-weight: 400;
+    font-size: 1rem;
+  }
 
-        font-weight: 400;
-        font-size: 1rem;
-    }
+  .header-pages li {
+    font-family: Montserrat;
+  }
 
-    .header-pages li {
-        font-family: Montserrat;
-    }
+  li {
+    cursor: pointer;
+    line-height: 20px;
+  }
 
-    li {
-        cursor: pointer;
-        line-height: 20px;
-    }
+  .aboutUs-button {
+    position: relative;
+  }
 
-    .aboutUs-button {
-        position: relative;
-    }
+  .aboutUs-pop-up {
+    position: absolute;
+    left: -173px;
+    display: none;
+    width: 173px;
+    gap: 10px;
+    border-radius: 12px;
+    list-style: none;
+    padding: 0;
+  }
 
-    .aboutUs-pop-up {
-        position: absolute;
-        left: -173px;
-        display: none;
-        width: 173px;
-        gap:10px;
-        border-radius: 12px;
-        list-style: none;
-        padding: 0;
-    }
+  .aboutUs-pop-up li {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #8b7f6e;
+    font-weight: 500;
+    background-color: #e6e1de;
+  }
 
-    .aboutUs-pop-up li {
-        float: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        color: #8B7F6E;
-        font-weight: 500;
-        background-color: #e6e1de;
-    }
+  .aboutUs-button:hover .aboutUs-pop-up {
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+  }
 
-    .aboutUs-button:hover .aboutUs-pop-up{
-        display: block;
-        background-color: white;
-        position: absolute;
-        z-index: 1;
-    }
+  .aboutUs-pop-up li:hover {
+    background-color: grey;
+    color: black;
+  }
 
-    .aboutUs-pop-up li:hover {
-        background-color: grey;
-        color: black;
-    }
+  .aboutUs-pop-up li:first-child {
+    border-radius: 12px 0 0 0;
+  }
 
-    .aboutUs-pop-up li:first-child {
-        border-radius: 12px 0 0 0;
-    }
+  .aboutUs-pop-up li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
 
-    .aboutUs-pop-up li:last-child {
-        border-radius: 0 0 12px 12px;
-    }
-
-    .blank {
-        display: none;
-    }
+  .blank {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 4rem;
-        width: 100%;
-        padding: 0 20px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    padding: 0 20px;
 
-        border-bottom: 1px solid #E6E1DE;
-        color: #E6E1DE;
+    border-bottom: 1px solid #e6e1de;
+    color: #e6e1de;
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-        box-sizing: border-box;
-    }
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    box-sizing: border-box;
+  }
 
-    .header-container-active {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 4rem;
-        width: 100%;
-        padding: 0 20px;
+  .header-container-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    padding: 0 20px;
 
-        border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 
-        background: #E6E1DE;
-        color: #080604;
+    background: #e6e1de;
+    color: #080604;
 
-        clear: both;
-        position: fixed;
-        z-index: 9999;
-        box-sizing: border-box;
-    }
+    clear: both;
+    position: fixed;
+    z-index: 9999;
+    box-sizing: border-box;
+  }
 
-    .header-logo {
-    }
+  .header-logo {
+  }
 
-    .header-button {
-        cursor: pointer;
-    }
+  .header-button {
+    cursor: pointer;
+  }
 
-    .header-content {
-        position: relative;
-    }
+  .header-content {
+    position: relative;
+  }
 
-    .header-content:hover .header-pages {
-        background-color: #E6E1DE;
-        color: #8B7F6E;;
-        position: absolute;
-        right: 0;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  .header-content:hover .header-pages {
+    background-color: #e6e1de;
+    color: #8b7f6e;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-        font-weight: 500;
-        font-size: 0.8rem;
-    }
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
 
-    .header-pages {
-        display: none;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        min-width: 200px;
-        text-align: right;
-        border-radius: 12px;
-        border: 1px solid black;
-    }
+  .header-pages {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    text-align: right;
+    border-radius: 12px;
+    border: 1px solid black;
+  }
 
-    .header-pages li {
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        line-height: 40px;
-    }
+  .header-pages li {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+  }
 
-    .header-pages li:first-child {
-        border-radius: 12px 12px 0 0;
-    }
+  .header-pages li:first-child {
+    border-radius: 12px 12px 0 0;
+  }
 
-    .header-pages li:last-child {
-        border-radius: 0 0 12px 12px;
-    }
+  .header-pages li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
 
-    .header-content:hover .header-pages li:hover {
-        background-color: grey;
-        color: black;
-    }
+  .header-content:hover .header-pages li:hover {
+    background-color: grey;
+    color: black;
+  }
 
-    .blank {
-        opacity: 0;
-        width: 5rem;
-    }
+  .blank {
+    opacity: 0;
+    width: 5rem;
+  }
 
-    .wrapper {
-        display: flex;
-        cursor: pointer;
+  .wrapper {
+    display: flex;
+    cursor: pointer;
 
-        font-weight: 400;
-        font-size: 1rem;
-    }
+    font-weight: 400;
+    font-size: 1rem;
+  }
 
-    .header-pages li {
-        font-family: Montserrat;
-    }
+  .header-pages li {
+    font-family: Montserrat;
+  }
 
-    li {
-        cursor: pointer;
-        line-height: 20px;
-    }
+  li {
+    cursor: pointer;
+    line-height: 20px;
+  }
 
-    .aboutUs-button {
-        position: relative;
-    }
+  .aboutUs-button {
+    position: relative;
+  }
 
-    .aboutUs-pop-up {
-        position: absolute;
-        left: -130px;
-        display: none;
-        width: 130px;
-        gap:10px;
-        border-radius: 12px;
-        list-style: none;
-        padding: 0;
-    }
+  .aboutUs-pop-up {
+    position: absolute;
+    left: -130px;
+    display: none;
+    width: 130px;
+    gap: 10px;
+    border-radius: 12px;
+    list-style: none;
+    padding: 0;
+  }
 
-    .aboutUs-pop-up li {
-        float: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        color: #8B7F6E;
-        font-weight: 500;
-        background-color: #e6e1de;
-    }
+  .aboutUs-pop-up li {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #8b7f6e;
+    font-weight: 500;
+    background-color: #e6e1de;
+  }
 
-    .aboutUs-button:hover .aboutUs-pop-up {
-        display: block;
-        background-color: white;
-        position: absolute;
-        z-index: 1;
-    }
+  .aboutUs-button:hover .aboutUs-pop-up {
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+  }
 
-    .aboutUs-pop-up li:hover {
-        background-color: grey;
-        color: black;
-    }
+  .aboutUs-pop-up li:hover {
+    background-color: grey;
+    color: black;
+  }
 
-    .aboutUs-pop-up li:first-child {
-        border-radius: 12px 0 0 0;
-    }
+  .aboutUs-pop-up li:first-child {
+    border-radius: 12px 0 0 0;
+  }
 
-    .aboutUs-pop-up li:last-child {
-        border-radius: 0 0 12px 12px;
-    }
+  .aboutUs-pop-up li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
 
-    .blank {
-        display: none;
-    }
+  .blank {
+    display: none;
+  }
 }

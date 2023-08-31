@@ -1,37 +1,38 @@
 .clients-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    gap: 120px;
-    background-color: #E6E1DE;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  gap: 120px;
+  background-color: #e6e1de;
 }
 
-.clients-container .top, .clients-container .bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.clients-container .top,
+.clients-container .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients-container .homepage-header-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients-content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    gap:20px;
+  gap: 20px;
 }
 
 .clients-content img {
-    width: 80%;
-    height: auto;
+  width: 80%;
+  height: auto;
 }

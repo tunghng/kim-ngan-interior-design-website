@@ -1,36 +1,35 @@
 .project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10rem;
-    background: #E6E1DE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10rem;
+  background: #e6e1de;
 }
 
 .menu-header {
-    font-style: normal;
-    color: #3D290D;
-    font-family: 'Montserrat';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 30px;
+  font-style: normal;
+  color: #3d290d;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .menu-top {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-weight: 700;
-    font-size: 40px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .menu-bot {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 24px;
-    width: 40rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  width: 40rem;
 }
-

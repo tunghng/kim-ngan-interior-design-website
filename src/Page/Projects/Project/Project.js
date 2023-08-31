@@ -26,16 +26,28 @@ const Project = () => {
 
   return (
     <div>
-        <Header headerStatus={false} headerColor={"black"} background={"#E6E1DE"}/>
+      <Header
+        headerStatus={false}
+        headerColor={"black"}
+        background={"#E6E1DE"}
+      />
       <div className="project-item" style={{ background: "#E6E1DE" }}>
         <div className="project-goBack">
           <span>
-            <Link to="/projects" style={{textDecoration:"none", color:"black"}}>Projects</Link>
+            <Link
+              to="/projects"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              Projects
+            </Link>
           </span>
           <span>{` > `}</span> <span>{blog.title}</span>
         </div>
 
-        <div className="homepage-header-container" style={{marginTop:"50px"}}>
+        <div
+          className="homepage-header-container"
+          style={{ marginTop: "50px" }}
+        >
           <div className="header-text-container products-header">
             <img src={vector} alt="" className="vector" />
             <div className="header-text">{blog.title}</div>
@@ -45,7 +57,12 @@ const Project = () => {
         <div className="project-body">
           <div
             className="project-body1"
-            style={{ display: "flex", paddingTop: "3rem", gap: "6rem", justifyContent:"space-between" }}
+            style={{
+              display: "flex",
+              paddingTop: "3rem",
+              gap: "6rem",
+              justifyContent: "space-between",
+            }}
           >
             <div className="project-body1-left">
               <div
@@ -58,12 +75,13 @@ const Project = () => {
                   paddingBottom: "2rem",
                 }}
               >{`A photo gallery of ${blog.title}`}</div>
-              <div style={{whiteSpace:"pre-line"}}>{blog.description}</div>
+              <div style={{ whiteSpace: "pre-line" }}>{blog.description}</div>
             </div>
             <img
               src={logo}
               className="project-body1-right"
-              style={{ width:"auto", height:"30%" }} alt=""
+              style={{ width: "auto", height: "30%" }}
+              alt=""
             ></img>
           </div>
         </div>
@@ -74,7 +92,7 @@ const Project = () => {
           paddingLeft: "8%",
           paddingRight: "8%",
           background:
-            "linear-gradient(0deg, #272523 1.37%, #272523 70.21%, #E6E1DE 100%)"
+            "linear-gradient(0deg, #272523 1.37%, #272523 70.21%, #E6E1DE 100%)",
         }}
       >
         <img
@@ -88,7 +106,7 @@ const Project = () => {
             <img
               src={blog.bannerImg}
               alt=""
-              style={{ width: "100%", marginBottom:"30px"}}
+              style={{ width: "100%", marginBottom: "30px" }}
             />
           </div>
         </div>
@@ -102,7 +120,7 @@ const Project = () => {
           alignItems: "center",
           paddingLeft: "8%",
           paddingRight: "8%",
-          background: "#E6E1DE"
+          background: "#E6E1DE",
         }}
       >
         <div
@@ -117,8 +135,15 @@ const Project = () => {
           Một số hình ảnh của dự án
         </div>
       </div>
-      <div style={{ paddingLeft: '8%', paddingRight: '8%', background: "#E6E1DE", paddingBottom: "3rem", }}>
-        <Gallery images={blog.imgs} id="images"/>
+      <div
+        style={{
+          paddingLeft: "8%",
+          paddingRight: "8%",
+          background: "#E6E1DE",
+          paddingBottom: "3rem",
+        }}
+      >
+        <Gallery images={blog.imgs} id="images" />
       </div>
     </div>
   );

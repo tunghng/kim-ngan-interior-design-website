@@ -20,10 +20,13 @@ const Products = (props) => {
   }, []);
   const imgs = [
     { id: 0, value: product1, description: "Khách sạn Toàn Thắng Stone" },
-    { id: 1, value: product2, description: "Trụ sở làm việc bệnh viện Đa Khoa Cửa Đông" },
+    {
+      id: 1,
+      value: product2,
+      description: "Trụ sở làm việc bệnh viện Đa Khoa Cửa Đông",
+    },
     { id: 2, value: product3, description: "Khách sạn Hải Âu Thiên Cầm " },
     { id: 3, value: product4, description: "Khách sạn Cửa Đông Luxury" },
-
   ];
 
   const [imageData, setImageData] = useState(imgs[0]);
@@ -45,7 +48,7 @@ const Products = (props) => {
         </div>
 
         <div className="header-subtext product-subtext">
-          <div className="header-subtext-content" style={{width: "60%"}}>
+          <div className="header-subtext-content" style={{ width: "60%" }}>
             Mỗi công trình của nội thất Kim Ngân được làm nên từ tâm huyết và
             sáng tạo của đội ngũ. Chúng tôi luôn muốn truyền cảm hứng và đưa đến
             cho quý khách hàng giá trị thật cùng với những trải nghiệm mới mẻ.

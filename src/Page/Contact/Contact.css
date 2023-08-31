@@ -1,335 +1,341 @@
 @media screen and (min-width: 965px) {
-    .contact-container {
-        background-color: #E6E1DE;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-    }
+  .contact-container {
+    background-color: #e6e1de;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 
-    .contact-content {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content .left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  .contact-content .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        gap: 80px;
-    }
+    gap: 80px;
+  }
 
-    .contact-container .left .up, .contact-container .left .down {
-        display: flex;
-        gap: 50px;
-    }
+  .contact-container .left .up,
+  .contact-container .left .down {
+    display: flex;
+    gap: 50px;
+  }
 
-    .contact-container .left .up > div, .contact-container .left .down > div {
-        width: 265px;
+  .contact-container .left .up > div,
+  .contact-container .left .down > div {
+    width: 265px;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content .box {
-        border: solid 2px;
-        border-radius: 50%;
-        border-color: #D59E19;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-content .box {
+    border: solid 2px;
+    border-radius: 50%;
+    border-color: #d59e19;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content img {
-        width: 30px;
-    }
+  .contact-content img {
+    width: 30px;
+  }
 
-    .contact-content p {
-        text-align: center;
-    }
+  .contact-content p {
+    text-align: center;
+  }
 
-    .contact-content .right {
-        display: flex;
-        flex-direction: column;
-        width: 35%;
-        gap: 20px;
-    }
+  .contact-content .right {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 20px;
+  }
 
-    .contact-content .right .form-group {
-        display: flex;
-        width: 100%;
-    }
+  .contact-content .right .form-group {
+    display: flex;
+    width: 100%;
+  }
 
-    .contact-content .right .form-control{
-        width: 100%;
-        height: 50px;
-        background-color: transparent;
+  .contact-content .right .form-control {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
 
-        border: solid 1px;
-        border-color: #D59E19;
+    border: solid 1px;
+    border-color: #d59e19;
 
-        font-size: 20px;
-        font-weight: 500;
-        padding:10px;
-    }
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+  }
 
-    .contact-content .right select {
-        width: 100%;
-        height: 68px;
-        background-color: transparent;
+  .contact-content .right select {
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
 
-        border: solid 1px;
-        border-color: #D59E19;
+    border: solid 1px;
+    border-color: #d59e19;
 
-        font-size: 20px;
-        font-weight: 500;
-        padding:10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
 
-        color: #8B7F6E;
-    }
+    color: #8b7f6e;
+  }
 
-    .contact-content .right button {
-        margin-top: 60px;
-        height: 68px;
-        background: linear-gradient(90deg, #D59E19 0%, #BB7E2F 100%);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: 700;
-    }
+  .contact-content .right button {
+    margin-top: 60px;
+    height: 68px;
+    background: linear-gradient(90deg, #d59e19 0%, #bb7e2f 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
 
 @media screen and (max-width: 964px) and (min-width: 511px) {
-    .contact-container {
-        background-color: #E6E1DE;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-    }
+  .contact-container {
+    background-color: #e6e1de;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 
-    .contact-content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content .left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  .contact-content .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        gap: 80px;
-    }
+    gap: 80px;
+  }
 
-    .contact-container .left .up, .contact-container .left .down {
-        display: flex;
-        gap: 10px;
-    }
+  .contact-container .left .up,
+  .contact-container .left .down {
+    display: flex;
+    gap: 10px;
+  }
 
-    .contact-container .left .up > div, .contact-container .left .down > div {
-        width: 265px;
+  .contact-container .left .up > div,
+  .contact-container .left .down > div {
+    width: 265px;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content .box {
-        border: solid 2px;
-        border-radius: 50%;
-        border-color: #D59E19;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-content .box {
+    border: solid 2px;
+    border-radius: 50%;
+    border-color: #d59e19;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content img {
-        width: 30px;
-    }
+  .contact-content img {
+    width: 30px;
+  }
 
-    .contact-content p {
-        text-align: center;
-    }
+  .contact-content p {
+    text-align: center;
+  }
 
-    .contact-content .right {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        gap: 20px;
-    }
+  .contact-content .right {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
 
-    .contact-content .right .form-group {
-        display: flex;
-        width: 100%;
-    }
+  .contact-content .right .form-group {
+    display: flex;
+    width: 100%;
+  }
 
-    .contact-content .right .form-control{
-        width: 100%;
-        height: 50px;
-        background-color: transparent;
+  .contact-content .right .form-control {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
 
-        border: solid 1px;
-        border-color: #D59E19;
+    border: solid 1px;
+    border-color: #d59e19;
 
-        font-size: 20px;
-        font-weight: 500;
-        padding:10px;
-    }
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+  }
 
-    .contact-content .right select {
-        width: 100%;
-        height: 68px;
-        background-color: transparent;
+  .contact-content .right select {
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
 
-        border: solid 1px;
-        border-color: #D59E19;
+    border: solid 1px;
+    border-color: #d59e19;
 
-        font-size: 20px;
-        font-weight: 500;
-        padding:10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
 
-        color: #8B7F6E;
-    }
+    color: #8b7f6e;
+  }
 
-    .contact-content .right button {
-        margin-top: 60px;
-        height: 68px;
-        background: linear-gradient(90deg, #D59E19 0%, #BB7E2F 100%);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: 700;
-    }
+  .contact-content .right button {
+    margin-top: 60px;
+    height: 68px;
+    background: linear-gradient(90deg, #d59e19 0%, #bb7e2f 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
 
 @media screen and (max-width: 511px) {
-    .contact-container {
-        background-color: #E6E1DE;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-    }
+  .contact-container {
+    background-color: #e6e1de;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 
-    .contact-content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content .left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  .contact-content .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        gap: 10px;
-    }
+    gap: 10px;
+  }
 
-    .contact-container .left .up, .contact-container .left .down {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+  .contact-container .left .up,
+  .contact-container .left .down {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .contact-container .left .up > div, .contact-container .left .down > div {
-        width: 265px;
+  .contact-container .left .up > div,
+  .contact-container .left .down > div {
+    width: 265px;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content .box {
-        border: solid 2px;
-        border-radius: 50%;
-        border-color: #D59E19;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .contact-content .box {
+    border: solid 2px;
+    border-radius: 50%;
+    border-color: #d59e19;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contact-content img {
-        width: 30px;
-    }
+  .contact-content img {
+    width: 30px;
+  }
 
-    .contact-content p {
-        text-align: center;
-    }
+  .contact-content p {
+    text-align: center;
+  }
 
-    .contact-content .right {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        gap: 20px;
-    }
+  .contact-content .right {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
 
-    .contact-content .right .form-group {
-        display: flex;
-        width: 100%;
-    }
+  .contact-content .right .form-group {
+    display: flex;
+    width: 100%;
+  }
 
-    .contact-content .right .form-control{
-        width: 100%;
-        height: 50px;
-        background-color: transparent;
+  .contact-content .right .form-control {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
 
-        border: solid 1px;
-        border-color: #D59E19;
+    border: solid 1px;
+    border-color: #d59e19;
 
-        font-size: 20px;
-        font-weight: 500;
-        padding:10px;
-    }
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+  }
 
-    .contact-content .right select {
-        width: 100%;
-        height: 68px;
-        background-color: transparent;
+  .contact-content .right select {
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
 
-        border: solid 1px;
-        border-color: #D59E19;
+    border: solid 1px;
+    border-color: #d59e19;
 
-        font-size: 20px;
-        font-weight: 500;
-        padding:10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
 
-        color: #8B7F6E;
-    }
+    color: #8b7f6e;
+  }
 
-    .contact-content .right button {
-        margin-top: 60px;
-        height: 68px;
-        background: linear-gradient(90deg, #D59E19 0%, #BB7E2F 100%);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: 700;
-    }
+  .contact-content .right button {
+    margin-top: 60px;
+    height: 68px;
+    background: linear-gradient(90deg, #d59e19 0%, #bb7e2f 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+  }
 }

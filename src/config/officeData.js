@@ -11,37 +11,37 @@ export const officeData = [
       "Dự án là tâm huyết và niềm tự hào của gia chủ cùng với đội ngũ thực hiện.",
     imgs: [
       {
-        src: "/projectAssets/bvcuadong1.png"
+        src: "/projectAssets/bvcuadong1.png",
       },
       {
-        src: "/projectAssets/bvcuadong2.png"
+        src: "/projectAssets/bvcuadong2.png",
       },
       {
-        src: "/projectAssets/bvcuadong3.png"
+        src: "/projectAssets/bvcuadong3.png",
       },
       {
-        src: "/projectAssets/bvcuadong4.png"
+        src: "/projectAssets/bvcuadong4.png",
       },
       {
-        src: "/projectAssets/bvcuadong5.png"
+        src: "/projectAssets/bvcuadong5.png",
       },
       {
-        src: "/projectAssets/bvcuadong6.png"
+        src: "/projectAssets/bvcuadong6.png",
       },
       {
-        src: "/projectAssets/bvcuadong7.png"
+        src: "/projectAssets/bvcuadong7.png",
       },
       {
-        src: "/projectAssets/bvcuadong8.png"
+        src: "/projectAssets/bvcuadong8.png",
       },
       {
-        src: "/projectAssets/bvcuadong9.png"
+        src: "/projectAssets/bvcuadong9.png",
       },
       {
-        src: "/projectAssets/bvcuadong10.png"
+        src: "/projectAssets/bvcuadong10.png",
       },
       {
-        src: "/projectAssets/bvcuadong11.png"
+        src: "/projectAssets/bvcuadong11.png",
       },
     ],
   },

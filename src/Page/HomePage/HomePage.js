@@ -34,11 +34,27 @@ export default function HomePage() {
   window.addEventListener("scroll", changeBackground);
 
   const clients = [
-    {name: "Công ty CPTM Aica HPL", image: require("../../assets/HomePage/aicaHPL.png"), position: 0},
-    {name: "Công ty CP gỗ An Cường", image: require("../../assets/HomePage/anCuong.png"), position: 0},
-    {name: "Công ty TNHH Navado Việt Nam", image: require("../../assets/HomePage/navado.png"), position: 1},
-    {name: "Công ty Excellence Mar", image: require("../../assets/HomePage/quamar.png"), position: 1},
-  ]
+    {
+      name: "Công ty CPTM Aica HPL",
+      image: require("../../assets/HomePage/aicaHPL.png"),
+      position: 0,
+    },
+    {
+      name: "Công ty CP gỗ An Cường",
+      image: require("../../assets/HomePage/anCuong.png"),
+      position: 0,
+    },
+    {
+      name: "Công ty TNHH Navado Việt Nam",
+      image: require("../../assets/HomePage/navado.png"),
+      position: 1,
+    },
+    {
+      name: "Công ty Excellence Mar",
+      image: require("../../assets/HomePage/quamar.png"),
+      position: 1,
+    },
+  ];
 
   return (
     <div className="w-100">
@@ -70,10 +86,7 @@ export default function HomePage() {
       <div className="section-2">
         <div className="left">
           <div className="title">
-            nhà sáng lập{" "}
-            <span>
-              NỘI THẤT KIM NGÂN
-            </span>
+            nhà sáng lập <span>NỘI THẤT KIM NGÂN</span>
           </div>
           <div className="text">
             <p>
@@ -91,7 +104,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="right">
-          <img src={section2_img} alt="" style={{width:"80%"}}/>
+          <img src={section2_img} alt="" style={{ width: "80%" }} />
           <div
             style={{
               width: "80px",
@@ -101,11 +114,11 @@ export default function HomePage() {
               marginTop: "50px",
             }}
           />
-          <h3 style={{ color: "#D59E19", fontSize: "24px" }}>
-            Lê Thị Kim Ngân
+          <h3 style={{ color: "#D59E19", fontSize: "20px" }}>
+            Lê Thị Kim Ngân - Nguyễn Quốc Việt
           </h3>
           <h4 style={{ color: "#3D290D", fontWeight: "500", fontSize: "18px" }}>
-            CEO NỘI THẤT KIM NGÂN
+            NHÀ SÁNG LẬP NỘI THẤT KIM NGÂN
           </h4>
           <p style={{ color: "#64543D" }}>
             {/* Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -211,22 +224,17 @@ export default function HomePage() {
                 textAlign: "center",
                 marginTop: "20px",
                 fontWeight: "400",
-
               }}
             >
               Nội thất Kim Ngân tự hào là đơn vị hàng đầu trong lĩnh vực sản
               xuất nội thất gỗ tự nhiên và gỗ công nghiệp với hai nhà xưởng quy
               mô lớn được trang bị máy móc hiện đại, vận hành bởi đội ngũ chuyên
-              môn cao, dày dặn kinh nghiệm. 
+              môn cao, dày dặn kinh nghiệm.
             </div>
           </div>
         </div>
-        <div
-          className="section5-content"
-        >
-          <div
-            className="left-row"
-          >
+        <div className="section5-content">
+          <div className="left-row">
             <div
               style={{
                 width: "100%",
@@ -251,9 +259,7 @@ export default function HomePage() {
               />
             </div>
           </div>
-          <div
-            className="right-row"
-          >
+          <div className="right-row">
             <div
               style={{
                 width: "100%",
