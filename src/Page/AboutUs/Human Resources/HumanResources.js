@@ -4,24 +4,24 @@ import vector from "../../../assets/aboutUs/Vector.png";
 
 import "./HumanResources.css";
 import section2_img from "../../../assets/HomePage/section2_img.jpg";
-import section3_img from "../../../assets/aboutUs/section3image.png";
+import section3_img from "../../../assets/aboutUs/section3image.jpg";
 
 export default function HumanResources() {
   const section2 = [
     {
       title: "Tầm nhìn",
       icon: require("../../../assets/icon/rocket-outline.svg").default,
-      text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      text: "Trở thành đơn vị thiết kế và thi công nội thất hàng đầu trong khu vực.",
     },
     {
       title: "Sứ mệnh",
       icon: require("../../../assets/icon/bar-chart-outline.svg").default,
-      text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      text: "Tạo ra những công trình khác biệt, không gian sang trọng, tinh tế với giải pháp tối ưu và sáng tạo nhất.",
     },
     {
       title: "Giá trị cốt lõi",
       icon: require("../../../assets/icon/hardware-chip-outline.svg").default,
-      text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      text: "Tận hiến - Gắn kết - Nguyên bản",
     },
   ];
 
@@ -63,7 +63,10 @@ export default function HumanResources() {
         background={"#E6E1DE"}
       />
       <div className="top">
-        <div className="homepage-header-container">
+        <div
+          className="homepage-header-container"
+          style={{ marginBottom: "20px" }}
+        >
           <div
             className="header-text-container products-header"
             style={{ width: "100%" }}
@@ -131,7 +134,7 @@ export default function HumanResources() {
             </p>
           </div>
         </div>
-        <div className="section2">
+        <div className="section2" style={{ height: "100%" }}>
           <div className="section2-background">a</div>
           <div className="section2-wrapper">
             {section2.map((item, key) => {
@@ -160,8 +163,10 @@ export default function HumanResources() {
                   <div
                     style={{
                       color: "white",
+                      minHeight: "70px",
                       fontSize: "18px",
                       fontWeight: "500",
+                      whiteSpace: "pre-line",
                     }}
                   >
                     {item.text}
@@ -173,15 +178,9 @@ export default function HumanResources() {
         </div>
         <div className="section3">
           <h1 className="section3-heading">Đội ngũ</h1>
-          <img style={{ width: "80%" }} src={section3_img} alt="" />
-          <p style={{ textAlign: "center", maxWidth: "924px" }}>
-            Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được
-            làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ.Các sản
-            phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-            sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ
-          </p>
+          <img style={{ width: "60%" }} src={section3_img} alt="" />
         </div>
-        <div className="section4">
+        <div className="section4" style={{ display: "none" }}>
           <h1 className="section4-heading">Quá trình phát triển</h1>
           <div className="section4-content">
             {section4.map((item, key) => {
@@ -237,7 +236,7 @@ export default function HumanResources() {
             })}
           </div>
         </div>
-        <div className="section5">
+        <div className="section5" style={{ display: "none" }}>
           <h1 className="section5-heading">Thành tích của chúng tôi</h1>
           <div className="section5-content">
             <div>
