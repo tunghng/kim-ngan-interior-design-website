@@ -4,7 +4,13 @@ import vector from "../../../assets/aboutUs/Vector.png";
 
 import "./HumanResources.css";
 import section2_img from "../../../assets/HomePage/section2_img.jpg";
-import section3_img from "../../../assets/aboutUs/section3image.jpg";
+import section3_img_0 from "../../../assets/aboutUs/section3/section3image0.jpg";
+import section3_img_1 from "../../../assets/aboutUs/section3/section3image1.jpg";
+import section3_img_3 from "../../../assets/aboutUs/section3/section3image3.jpg";
+import section3_img_4 from "../../../assets/aboutUs/section3/section3image4.jpg";
+import section3_img_5 from "../../../assets/aboutUs/section3/section3image5.jpg";
+import { Autoplay, Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function HumanResources() {
   const section2 = [
@@ -55,6 +61,25 @@ export default function HumanResources() {
         "Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ.Các sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ sản phẩm được làm từ gỗ ",
     },
   ];
+
+  const section3 = [
+    {
+      img: section3_img_0,
+    },
+    {
+      img: section3_img_1,
+    },
+    {
+      img: section3_img_3,
+    },
+    {
+      img: section3_img_4,
+    },
+    {
+      img: section3_img_5,
+    },
+  ];
+
   return (
     <div className="hr-container">
       <Header
@@ -178,7 +203,32 @@ export default function HumanResources() {
         </div>
         <div className="section3">
           <h1 className="section3-heading">Đội ngũ</h1>
-          <img style={{ width: "60%" }} src={section3_img} alt="" />
+          {/*<img style={{ width: "60%" }} src={section3_img} alt="" />*/}
+          <div style={{ width: "100%" }}>
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+              autoplay
+            >
+              {section3.map((item, index) => (
+                <SwiperSlide>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <img
+                      src={item.img}
+                      style={{ objectFit: "cover", width: "70%" }}
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
         <div className="section4" style={{ display: "none" }}>
           <h1 className="section4-heading">Quá trình phát triển</h1>
