@@ -102,6 +102,7 @@
     color: #8b7f6e;
     font-weight: 500;
     background-color: #e6e1de;
+    border: 0.5px solid;
   }
 
   .pop-up-button:hover .pop-up-content {
@@ -233,6 +234,7 @@
     color: #8b7f6e;
     font-weight: 500;
     background-color: #e6e1de;
+    border: 0.5px solid;
   }
 
   .pop-up-button:hover .pop-up-content {
@@ -404,6 +406,7 @@
     color: #8b7f6e;
     font-weight: 500;
     background-color: #e6e1de;
+    border: 0.5px solid;
   }
 
   .pop-up-button:hover .pop-up-content {
@@ -576,6 +579,17 @@
     color: #8b7f6e;
     font-weight: 500;
     background-color: #e6e1de;
+    border: 0.5px solid;
+  }
+
+  .projects-pop-up {
+    width: 150px;
+    left: -150px;
+  }
+
+  .projects-pop-up li {
+    text-align: center;
+    height: auto;
   }
 
   .pop-up-button:hover .pop-up-content {
