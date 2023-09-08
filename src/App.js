@@ -8,6 +8,9 @@ import ProjectMenu from "./Page/Projects/ProjectMenu/ProjectMenu";
 import Contact from "./Page/Contact/Contact";
 import Clients from "./Page/AboutUs/Clients/Clients";
 import Project from "./Page/Projects/Project/Project";
+import HotelProjectMenu from "./Page/Projects/ProjectMenu/HotelProject/HotelProjectMenu";
+import VillaProjectMenu from "./Page/Projects/ProjectMenu/VillaProject/VillaProjectMenu";
+import OfficeProjectMenu from "./Page/Projects/ProjectMenu/OfficeProject/OfficeProjectMenu";
 import PhotoAlbum from "./Page/Projects/Gallery/PhotoAlbum";
 import HumanResources from "./Page/AboutUs/Human Resources/HumanResources";
 
@@ -19,6 +22,13 @@ function App() {
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/projects" exact component={ProjectMenu} />
+            <Route path="/projects/hotel" exact component={HotelProjectMenu} />
+            <Route path="/projects/villa" exact component={VillaProjectMenu} />
+            <Route
+              path="/projects/office"
+              exact
+              component={OfficeProjectMenu}
+            />
             <Route path="/projects/:id" exact component={Project} />
             <Route path="/projects/gallery/:id" exact component={PhotoAlbum} />
             <Route path="/products" exact component={Products} />

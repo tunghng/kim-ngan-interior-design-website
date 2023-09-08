@@ -37,10 +37,26 @@ const Header = ({ headerStatus, headerColor, background }) => {
             Trang chủ
           </li>
           <li onClick={() => moveTo("/products")}>Nhà xưởng</li>
-          <li onClick={() => moveTo("/projects")}>Dự án</li>
-          <li className="aboutUs-button">
+          <li className="projects-button pop-up-button">
+            <div className="projects-title">Dự án</div>
+            <ul className="projects-pop-up pop-up-content">
+              <li className="up" onClick={() => moveTo("/projects/hotel")}>
+                Dự án khách sạn, nhà hàng
+              </li>
+              <li className="down" onClick={() => moveTo("/projects/villa")}>
+                Dự án biệt thự, nhà phố
+              </li>
+              <li className="down" onClick={() => moveTo("/projects/office")}>
+                Dự án văn phòng
+              </li>
+              <li className="down" onClick={() => moveTo("/projects")}>
+                Dự án showroom, cửa hàng
+              </li>
+            </ul>
+          </li>
+          <li className="aboutUs-button pop-up-button">
             <div className="aboutUs-title">Về chúng tôi</div>
-            <ul className="aboutUs-pop-up">
+            <ul className="aboutUs-pop-up pop-up-content">
               <li className="up" onClick={() => moveTo("/aboutus/hr")}>
                 Nhân sự
               </li>

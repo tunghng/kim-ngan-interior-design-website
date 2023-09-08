@@ -78,11 +78,11 @@
     line-height: 20px;
   }
 
-  .aboutUs-button {
+  .pop-up-button {
     position: relative;
   }
 
-  .aboutUs-pop-up {
+  .pop-up-content {
     position: absolute;
     display: none;
     right: -36px;
@@ -93,7 +93,7 @@
     padding: 0;
   }
 
-  .aboutUs-pop-up li {
+  .pop-up-content li {
     float: none;
     display: flex;
     justify-content: center;
@@ -104,24 +104,28 @@
     background-color: #e6e1de;
   }
 
-  .aboutUs-button:hover .aboutUs-pop-up {
+  .pop-up-button:hover .pop-up-content {
     display: block;
     background-color: white;
     position: absolute;
     z-index: 1;
   }
 
-  .aboutUs-pop-up li:hover {
+  .pop-up-content li:hover {
     background-color: grey;
     color: black;
   }
 
-  .aboutUs-pop-up li:first-child {
+  .pop-up-content li:first-child {
     border-radius: 12px 12px 0 0;
   }
 
-  .aboutUs-pop-up li:last-child {
+  .pop-up-content li:last-child {
     border-radius: 0 0 12px 12px;
+  }
+
+  .projects-pop-up {
+    width: 300px;
   }
 }
 
@@ -205,11 +209,11 @@
     line-height: 20px;
   }
 
-  .aboutUs-button {
+  .pop-up-button {
     position: relative;
   }
 
-  .aboutUs-pop-up {
+  .pop-up-content {
     position: absolute;
     display: none;
     right: -45.5px;
@@ -220,7 +224,7 @@
     padding: 0;
   }
 
-  .aboutUs-pop-up li {
+  .pop-up-content li {
     float: none;
     display: flex;
     justify-content: center;
@@ -231,24 +235,28 @@
     background-color: #e6e1de;
   }
 
-  .aboutUs-button:hover .aboutUs-pop-up {
+  .pop-up-button:hover .pop-up-content {
     display: block;
     background-color: white;
     position: absolute;
     z-index: 1;
   }
 
-  .aboutUs-pop-up li:hover {
+  .pop-up-content li:hover {
     background-color: grey;
     color: black;
   }
 
-  .aboutUs-pop-up li:first-child {
+  .pop-up-content li:first-child {
     border-radius: 12px 12px 0 0;
   }
 
-  .aboutUs-pop-up li:last-child {
+  .pop-up-content li:last-child {
     border-radius: 0 0 12px 12px;
+  }
+
+  .projects-pop-up {
+    width: 300px;
   }
 
   .blank {
@@ -372,11 +380,11 @@
     line-height: 20px;
   }
 
-  .aboutUs-button {
+  .pop-up-button {
     position: relative;
   }
 
-  .aboutUs-pop-up {
+  .pop-up-content {
     position: absolute;
     left: -173px;
     display: none;
@@ -387,7 +395,7 @@
     padding: 0;
   }
 
-  .aboutUs-pop-up li {
+  .pop-up-content li {
     float: none;
     display: flex;
     justify-content: center;
@@ -398,24 +406,29 @@
     background-color: #e6e1de;
   }
 
-  .aboutUs-button:hover .aboutUs-pop-up {
+  .pop-up-button:hover .pop-up-content {
     display: block;
     background-color: white;
     position: absolute;
     z-index: 1;
   }
 
-  .aboutUs-pop-up li:hover {
+  .pop-up-content li:hover {
     background-color: grey;
     color: black;
   }
 
-  .aboutUs-pop-up li:first-child {
+  .pop-up-content li:first-child {
     border-radius: 12px 0 0 0;
   }
 
-  .aboutUs-pop-up li:last-child {
+  .pop-up-content li:last-child {
     border-radius: 0 0 12px 12px;
+  }
+
+  .projects-pop-up {
+    left: -300px;
+    width: 300px;
   }
 
   .blank {
@@ -539,11 +552,11 @@
     line-height: 20px;
   }
 
-  .aboutUs-button {
+  .pop-up-button {
     position: relative;
   }
 
-  .aboutUs-pop-up {
+  .pop-up-content {
     position: absolute;
     left: -130px;
     display: none;
@@ -554,7 +567,7 @@
     padding: 0;
   }
 
-  .aboutUs-pop-up li {
+  .pop-up-content li {
     float: none;
     display: flex;
     justify-content: center;
@@ -565,23 +578,23 @@
     background-color: #e6e1de;
   }
 
-  .aboutUs-button:hover .aboutUs-pop-up {
+  .pop-up-button:hover .pop-up-content {
     display: block;
     background-color: white;
     position: absolute;
     z-index: 1;
   }
 
-  .aboutUs-pop-up li:hover {
+  .pop-up-content li:hover {
     background-color: grey;
     color: black;
   }
 
-  .aboutUs-pop-up li:first-child {
+  .pop-up-content li:first-child {
     border-radius: 12px 0 0 0;
   }
 
-  .aboutUs-pop-up li:last-child {
+  .pop-up-content li:last-child {
     border-radius: 0 0 12px 12px;
   }
 

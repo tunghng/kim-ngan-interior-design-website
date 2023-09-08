@@ -52,7 +52,6 @@
 
   .footer-bottom {
     display: flex;
-    /* align-items: center; */
 
     width: 100%;
     height: auto;
@@ -320,6 +319,10 @@
   }
 
   .footer-top .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
   }
 

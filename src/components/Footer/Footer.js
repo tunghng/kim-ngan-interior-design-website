@@ -20,8 +20,8 @@ const Footer = (props) => {
     <div className="footer">
       <div className="footer-top">
         <div className="left">
-          <img src={brand_logo} alt="" style={{ width: "8rem" }} />
-          <h5 style={{ fontWeight: "700" }}>NỘI THẤT KIM NGÂN</h5>
+          <img src={brand_logo} alt="" style={{ width: "10rem" }} />
+          <h3 style={{ fontWeight: "700" }}>NỘI THẤT KIM NGÂN</h3>
           <p style={{ width: "50%" }}></p>
         </div>
         <div className="right">
