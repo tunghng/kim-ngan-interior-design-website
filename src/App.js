@@ -32,7 +32,6 @@ function App() {
             <Route path="/projects/:id" exact component={Project} />
             <Route path="/projects/gallery/:id" exact component={PhotoAlbum} />
             <Route path="/products" exact component={Products} />
-
             <Route path="/contact" exact component={Contact} />
             <Route path="/aboutus/hr" exact component={HumanResources} />
             <Route path="/aboutus/clients" exact component={Clients} />
