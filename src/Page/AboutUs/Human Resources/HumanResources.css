@@ -201,7 +201,7 @@
     width: 100%;
 
     padding-top: 10rem;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     gap: 10px;
     background-color: #e6e1de;
   }
@@ -209,7 +209,7 @@
   .hr-container .hr-content {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    gap: 40px;
   }
 
   .hr-container .top {
