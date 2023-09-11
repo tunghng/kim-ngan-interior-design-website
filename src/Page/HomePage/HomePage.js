@@ -58,7 +58,10 @@ export default function HomePage() {
 
   return (
     <div className="w-100">
-      <Header headerStatus={header} />
+      <Header
+        headerStatus={header}
+        background={header ? "#E6E1DE" : "rgba(42,39,36,0.95)"}
+      />
       {/*banner*/}
       <div id="banner" style={{ display: "flex", flexDirection: "column" }}>
         <div
