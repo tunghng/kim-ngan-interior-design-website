@@ -139,13 +139,15 @@ export default function Contact() {
               <div className="box">
                 <img src={atOutline} alt="" />
               </div>
-              <p>noithatkimngan.com</p>
+              <a href="https://noithatkimngan.com/" target="_blank">
+                noithatkimngan.com
+              </a>
             </div>
             <div>
               <div className="box">
                 <img src={call} alt="" />
               </div>
-              <p>0963 565 189</p>
+              <a href="tel: 0963565189">0963 565 189</a>
             </div>
           </div>
           <div className="down">
@@ -153,7 +155,9 @@ export default function Contact() {
               <div className="box">
                 <img src={mail} alt="" />
               </div>
-              <p>kimnganfurniture@noithatkimngan.com</p>
+              <a href="mailto: kimnganfurniture@noithatkimngan.com">
+                kimnganfurniture@noithatkimngan.com
+              </a>
             </div>
           </div>
         </div>
